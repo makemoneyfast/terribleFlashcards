@@ -1,0 +1,51 @@
+body,
+#root {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    left: 3.6vmin;
+    right: 3.6vmin;
+    top: 3.6vmin;
+    bottom: 3.6vmin;
+    position: absolute;
+    display: flex;
+}
+
+.japanese {
+    font-family: "Yu Mincho", "MS Mincho", serif;
+    font-weight: bold;
+}
+
+.english {
+    font-family: Futura;
+}
+
+.button {
+    font-size: 2vmin;
+    padding: 0.8vmin;
+    text-align: center;
+    background-color: #ccc;
+    border: #666 1px solid;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button.disabled {
+    color: #999;
+    background-color: #eee;
+    border: #ccc 1px solid;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+@media screen and (orientation: landscape) {
+    .control-button {
+        flex-grow: 0;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .control-button {
+        flex-grow: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.edit-panel {
+    background-color: #ccc;
+    border: #333 1px solid;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (orientation: landscape) {
+    .edit-panel {
+        height: 100%;
+        left: 0;
+        right: 37.2vmin;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .edit-panel {
+        width: 100%;
+        top: 0;
+        bottom: 15.2vmin;
+    }
+}

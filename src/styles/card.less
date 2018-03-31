@@ -1,0 +1,211 @@
+.card {
+    background-color: #ccc;
+    border: #333 1px solid;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.card.retest {
+    color: #c00;
+    background-color: #fcc;
+    border-color: #c00;
+}
+
+.card > .content {
+    position: absolute;
+    left: 3vmin;
+    right: 3vmin;
+    top: 3vmin;
+    bottom: 3vmin;
+}
+
+.card .status {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.card .question {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.card .question .content {
+    text-align: center;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.card .answer {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.card .answer .hint {
+    text-align: center;
+    font-style: italic;
+}
+
+.card .answer .meaning {
+    text-align: center;
+}
+
+.card .answer .kunyomi {
+    text-align: center;
+}
+
+.card .answer .onyomi {
+    text-align: center;
+}
+
+.card .tags {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card .tags span {
+    display: block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border: #333 1px solid;
+    padding: 0.8vmin;
+    font-size: 2vmin;
+}
+
+@media screen and (orientation: landscape) {
+    .card {
+        height: 100%;
+        left: 0;
+        right: 37.2vmin;
+    }
+
+    .card .status {
+        height: 5.5vmin;
+        font-size: 2vmin;
+    }
+
+    .card .question {
+        left: 0;
+        width: 50%;
+        top: 5.5vmin;
+        bottom: 5.5vmin;
+        flex-direction: column;
+    }
+
+    .card .question .content {
+        font-size: 41vmin;
+    }
+
+    .card .answer {
+        right: 0;
+        width: 50%;
+        top: 5.5vmin;
+        bottom: 5.5vmin;
+    }
+
+    .card .answer .hint {
+        flex-basis: auto;
+        flex-grow: 0;
+        font-size: 4.3vmin;
+        flex-direction: column;
+    }
+
+    .card .answer .meaning {
+        flex-basis: auto;
+        flex-grow: 0;
+        font-size: 7.5vmin;
+    }
+
+    .card .answer .kunyomi {
+        flex-basis: auto;
+        flex-grow: 0;
+        font-size: 5vmin;
+    }
+
+    .card .answer .onyomi {
+        flex-basis: auto;
+        flex-grow: 0;
+        font-size: 5vmin;
+    }
+
+    .card .tags {
+        height: 5.5vmin;
+    }
+
+    .card .tags .tag {
+        display: inline-block;
+        border: #333 1px solid;
+        border-radius: 6px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .card .retestButton {
+        height: 9vmin;
+        font-size: 5vmin;
+        display: inline-block;
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .card {
+        width: 100%;
+        top: 0;
+        bottom: 15.2vmin;
+    }
+
+    .card .status {
+        height: 5.5vmin;
+        font-size: 2vmin;
+    }
+
+    .card .question {
+        font-size: 55vmin;
+        left: 0;
+        width: 100%;
+        top: 5.5vmin;
+        bottom: 50%;
+        flex-direction: column;
+    }
+
+    .card .question .content {
+        font-size: 52vmin;
+    }
+
+    .card .answer {
+        right: 0;
+        width: 100%;
+        top: 50%;
+        bottom: 5.5vmin;
+    }
+
+    .card .answer .hint {
+        flex-basis: auto;
+        flex-grow: 0;
+        font-size: 5vmin;
+    }
+
+    .card .answer .meaning {
+        flex-basis: auto;
+        flex-grow: 0;
+        font-size: 8vmin;
+    }
+}

@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "type": "shell",
+    "presentation": {
+        "reveal": "always"
+    },
+    "runner": "terminal",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "yarn",
+            "args": [
+                "build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build-prod",
+            "command": "yarn",
+            "args": [
+                "build-prod"
+            ],
+            "group": "build",
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "start",
+            "command": "yarn",
+            "args": [
+                "start"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

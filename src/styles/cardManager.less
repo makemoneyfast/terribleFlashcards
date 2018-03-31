@@ -1,0 +1,112 @@
+.cardManager {
+    background-color: #ccc;
+    border: #333 1px solid;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.cardManager .filterOptions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 30%;
+}
+
+.cardManager .filterOptions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0%;
+    height: 30%;
+}
+
+.cardManager .filterOptions .filterIn {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+}
+
+.cardManager .filterOptions .filterOut {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.cardManager .selectionEditing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    height: 35%;
+}
+
+.cardManager .selectionEditing h3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.cardManager .selectionEditing .tagsOnSelection {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 20%;
+    bottom: 20%;
+}
+
+.cardManager .selectionEditing .setsOnSelection {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 20%;
+    bottom: 20%;
+}
+
+.cardManager .selectionEditing .selectionEditingControls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20%;
+    bottom: 0;
+}
+
+.cardManager .cards {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 35%;
+    overflow: auto;
+}
+
+.selected {
+    background-color: #333;
+    border-color: #960;
+    color: #c90;
+}
+
+@media screen and (orientation: landscape) {
+    .cardManager {
+        height: 100%;
+        left: 0;
+        right: 37.2vmin;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .cardManager {
+        width: 100%;
+        top: 0;
+        bottom: 15.2vmin;
+    }
+}

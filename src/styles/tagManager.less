@@ -1,0 +1,39 @@
+.tagManager {
+    background-color: #ccc;
+    border: #333 1px solid;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.tagManager .tags {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.tagManager .tag {
+    display: inline-block;
+    border: #333 1px solid;
+    margin: 3px;
+    padding: 2px;
+}
+
+@media screen and (orientation: landscape) {
+    .tagManager {
+        height: 100%;
+        left: 0;
+        right: 37.2vmin;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .tagManager {
+        width: 100%;
+        top: 0;
+        bottom: 15.2vmin;
+    }
+}

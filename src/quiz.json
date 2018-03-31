@@ -1,0 +1,3578 @@
+{
+    "sets": [
+        {
+            "name": "1",
+            "id": "0",
+            "kanji": [
+                {
+                    "character": "要",
+                    "meaning": "need, keystone",
+                    "notes": "civilian woman brings much-needed power cell"
+                },
+                {
+                    "character": "審",
+                    "meaning": "investigation, hearing",
+                    "notes":
+                        "crested-helmeted ranking investigator at military hearing has mission waypoints all stored in his brain"
+                },
+                {
+                    "character": "既",
+                    "meaning": "established, pre-existing, き",
+                    "notes":
+                        "ceramite battle-sister statue stands atop long-established convent"
+                },
+                {
+                    "character": "被",
+                    "meaning": "screen, cover, conceal, ひ",
+                    "notes":
+                        "daemonic entities fashion hide from warp rift energies to cover/conceal themselves"
+                },
+                {
+                    "character": "軍",
+                    "meaning": "military, ぐん",
+                    "notes": "car combined with helm is basic military vehicle"
+                },
+                {
+                    "character": "害",
+                    "meaning": "harm, injury, がい",
+                    "notes":
+                        "commander hides grinweed between helmet and bodyguard, secret harm"
+                },
+                {
+                    "character": "開",
+                    "meaning": "open, かい",
+                    "notes": "two-handed weapon (wielder) holding gate open"
+                },
+                {
+                    "character": "我",
+                    "meaning": "ego わ",
+                    "notes": "just a one-handed weapon and a marksman's honour"
+                },
+                {
+                    "character": "思",
+                    "meaning": "thought, feeling し",
+                    "notes":
+                        "feeling arises simply from brain and heart together"
+                },
+                {
+                    "character": "議",
+                    "meaning": "opinion ぎ",
+                    "notes": "word next to khorne (aggressive) over ego"
+                },
+                {
+                    "character": "写",
+                    "meaning": "reproduction, image しゃ",
+                    "notes":
+                        "reproduction helm conceals needle pistol with secret layer"
+                },
+                {
+                    "character": "真",
+                    "meaning": "true, real しん",
+                    "notes":
+                        "tech-priest's laser eye verifies mechanicus credentials of authentic anvil"
+                },
+                {
+                    "character": "息",
+                    "meaning": "breath いき",
+                    "notes":
+                        "breath as the essence of vital self (self and heart)"
+                },
+                {
+                    "character": "映",
+                    "meaning": "display, illuminate えい",
+                    "notes":
+                        "sun literally, central authority figuratively illuminates"
+                },
+                {
+                    "character": "画",
+                    "meaning": "picture え、か",
+                    "notes": "heretical purpose in orbital lander"
+                },
+                {
+                    "character": "期",
+                    "meaning": "period き",
+                    "notes":
+                        "cogitator and moon used together to precisely measure time"
+                },
+                {
+                    "character": "待",
+                    "meaning": "wait, delay たい",
+                    "notes":
+                        "column pauses at temple to be blessed on way to construction site"
+                },
+                {
+                    "character": "搭",
+                    "meaning": "(to) board どう",
+                    "notes":
+                        "with pistol and flowers during conjunction, boarding neutral ship for meeting"
+                },
+                {
+                    "character": "乗",
+                    "meaning": "to mount じょう",
+                    "notes": "blessed reactor being donned by man"
+                },
+                {
+                    "character": "形",
+                    "meaning": "shape かた",
+                    "notes":
+                        "two-handed sword schematic describes manufacture and use"
+                },
+                {
+                    "character": "完",
+                    "meaning": "finale かん",
+                    "notes": "origin rewarded (ends in) command"
+                },
+                {
+                    "character": "元",
+                    "meaning": "beginning げん　もと",
+                    "notes": "the emperor and malcador, two unaugmented humans"
+                },
+                {
+                    "character": "全",
+                    "meaning": "whole ぜん",
+                    "notes": "refractor field keeps king whole"
+                },
+                {
+                    "character": "新",
+                    "meaning": "new しん",
+                    "notes": "new house guard gets taser and loaf of bread"
+                },
+                {
+                    "character": "斤",
+                    "meaning": "loaf, 600g きん",
+                    "notes": "--"
+                },
+                {
+                    "character": "型",
+                    "meaning": "archetype かた",
+                    "notes":
+                        "power sword dual-wielding planet-side-only specialist is martial archetype"
+                },
+                {
+                    "character": "化",
+                    "meaning": "-ification か",
+                    "notes": "marneus calgar uses auspex to remake the galaxy"
+                },
+                {
+                    "character": "開",
+                    "meaning": "door, open かい",
+                    "notes": "dual-wielded weapon smashes open door"
+                },
+                {
+                    "character": "発",
+                    "meaning": "leave はつ",
+                    "notes":
+                        "command tent, leaving with two-handed weapon combined with unaugmented legs"
+                },
+                {
+                    "character": "紹",
+                    "meaning": "introduce しょ",
+                    "notes":
+                        "thread represents binding of sword (hireling) and employer (unaugmented person)"
+                },
+                {
+                    "character": "介",
+                    "meaning": "care かい",
+                    "notes":
+                        "refractor-warded special vessel for care of gestating primarch"
+                },
+                {
+                    "character": "色",
+                    "meaning": "color いろ",
+                    "notes":
+                        "chained (constrained) fresco describes allowed colors"
+                },
+                {
+                    "character": "異",
+                    "meaning": "objection い",
+                    "notes": "xxx"
+                },
+                {
+                    "character": "注",
+                    "meaning": "note ちゅう",
+                    "notes":
+                        "customised counterseptic for leader is accompanied by physician's note"
+                },
+                {
+                    "character": "意",
+                    "meaning": "meaning, attention い",
+                    "notes": "collision alert tone affects heart rate"
+                },
+                {
+                    "character": "表",
+                    "meaning": "superficial おもて",
+                    "notes":
+                        "doubt-filled knightly aspirant projects a bold appearance"
+                },
+                {
+                    "character": "面",
+                    "meaning": "surface, face めん",
+                    "notes": "???"
+                },
+                {
+                    "character": "状",
+                    "meaning": "letter, state じょう",
+                    "notes": "tyranid and hound trapped in stasis for study"
+                },
+                {
+                    "character": "起",
+                    "meaning": "happen おこる",
+                    "notes":
+                        "while running the tech-priest's mechadendrite can still independently make things happen"
+                },
+                {
+                    "character": "走",
+                    "meaning": "run ",
+                    "notes":
+                        "righteous citizen runs on receiving beam of light vision"
+                },
+                {
+                    "character": "伏",
+                    "meaning": "inclination, bow ",
+                    "notes":
+                        "Guilliman's 'hound' bows on returning from a mission"
+                },
+                {
+                    "character": "判",
+                    "meaning": "stamp はん",
+                    "notes":
+                        "when half-finished a power sword (note curve in blade) is stamped on the tang"
+                },
+                {
+                    "character": "構",
+                    "meaning": "posture かじ",
+                    "notes":
+                        "trees surrounding the academy and trained into shapes that teach martial arts"
+                },
+                {
+                    "character": "組",
+                    "meaning": "team, set くみ",
+                    "notes":
+                        "thread implies connection, data stack to store team registration"
+                },
+                {
+                    "character": "印",
+                    "meaning": "trademark いん",
+                    "notes":
+                        "data slate with purity seal carries trademark-endorsed files"
+                },
+                {
+                    "character": "機",
+                    "meaning": "loom き",
+                    "notes":
+                        "made from tree, combines double threads, marksman's honour for precision and human operator"
+                },
+                {
+                    "character": "首",
+                    "meaning": "discharge ずけ",
+                    "notes": "horns, heresy over augmented eye"
+                },
+                {
+                    "character": "付",
+                    "meaning": "luck ずけ",
+                    "notes":
+                        "Guilliman can seize victory with even a speck of luck"
+                },
+                {
+                    "character": "外",
+                    "meaning": "outside がい",
+                    "notes":
+                        "if you're going outside in the evening, you need at least a force staff"
+                },
+                {
+                    "character": "装",
+                    "meaning": "getup, rig そう",
+                    "notes":
+                        "regalia for gentleman who faces tyranid (tyrannic veteran)"
+                },
+                {
+                    "character": "最",
+                    "meaning": "substantially さい",
+                    "notes": "sun over extended appropriate"
+                },
+                {
+                    "character": "前",
+                    "meaning": "former ぜん",
+                    "notes":
+                        "former times (old night) is horned heretic lunatic with power sword"
+                },
+                {
+                    "character": "部",
+                    "meaning": "division, section ぶ",
+                    "notes":
+                        "special projects division brew elixirs in dedicated sensor spire"
+                },
+                {
+                    "character": "風",
+                    "meaning": "wind かぜ",
+                    "notes": "(plague) wind is vessel for nurgle swarm"
+                },
+                {
+                    "character": "防",
+                    "meaning": "protection",
+                    "notes":
+                        "Protection of fortress spire that overlooks the approaches (ways)"
+                },
+                {
+                    "character": "体",
+                    "meaning": "physique からだ",
+                    "notes":
+                        "guilliman is the book from which the physiques of the ultramarines are written"
+                },
+                {
+                    "character": "処",
+                    "meaning": "area ところ",
+                    "notes": "an area is patrolled only by a tank and the wind"
+                },
+                {
+                    "character": "理",
+                    "meaning": "reason り",
+                    "notes":
+                        "king plus li as figurative distance he controls is rational"
+                },
+                {
+                    "character": "塗",
+                    "meaning": "lacquer ぬり",
+                    "notes":
+                        "'painting' weird auxiliaries with counterseptic on an earth parade ground"
+                },
+                {
+                    "character": "嬉",
+                    "meaning": "happy うれしい",
+                    "notes":
+                        "woman drumming on laundry, happy because nothing to do with war"
+                },
+                {
+                    "character": "可",
+                    "meaning": "acceptable か",
+                    "notes":
+                        "a really big xenos leaf unexpectedly provides acceptable protection to unarmoured man"
+                },
+                {
+                    "character": "何",
+                    "meaning": "what なに",
+                    "notes":
+                        "superbly trained ultramarines find uncertainty acceptable"
+                },
+                {
+                    "character": "荷",
+                    "meaning": "cargo に",
+                    "notes":
+                        "carrier bag with uncertain contents draped with tourist's local flower necklace"
+                },
+                {
+                    "character": "配",
+                    "meaning": "arrange",
+                    "notes":
+                        "ranks of reagent bottles arranged by dedicated mechadendrite"
+                },
+                {
+                    "character": "時",
+                    "meaning": "hour じ",
+                    "notes":
+                        "sun temple is where standard local hour length is officially ordained"
+                },
+                {
+                    "character": "予",
+                    "meaning": "Early preparation よ",
+                    "notes":
+                        "study gene-print of hook-leafed flora as early preparation for establishing colony"
+                },
+                {
+                    "character": "定",
+                    "meaning": "certainty てい",
+                    "notes":
+                        "commander filled with rectitude is as certain as anything can be"
+                },
+                {
+                    "character": "設",
+                    "meaning": "structure せつ",
+                    "notes":
+                        "at a word, mechanicus missiles are launched to build structures"
+                },
+                {
+                    "character": "寄",
+                    "meaning": "approach より",
+                    "notes":
+                        "big man in crested helm accepts your credentials, so you can approach"
+                },
+                {
+                    "character": "模",
+                    "meaning": "printing block ばく",
+                    "notes":
+                        "printing blocks (to print holy books) are carved of trees from holy sepulchres"
+                },
+                {
+                    "character": "取",
+                    "meaning": "to appropriate しゅ",
+                    "notes":
+                        "thing appropriated by means of oratorical and sexual persuasion"
+                },
+                {
+                    "character": "扱",
+                    "meaning": "to handle こく",
+                    "notes":
+                        "hand weapon infallibly handled by means of sorcerous link"
+                },
+                {
+                    "character": "店",
+                    "meaning": "shop みせ",
+                    "notes":
+                        "unarmoured civilian in hab cell nevertheless has force staff to trade"
+                },
+                {
+                    "character": "約",
+                    "meaning": "approximately やく",
+                    "notes":
+                        "single thread stained with ensorcelled blood drop provides approximate information on target"
+                },
+                {
+                    "character": "価",
+                    "meaning": "value たい",
+                    "notes": "ultramarines-manufactured batteries are valuable"
+                },
+                {
+                    "character": "格",
+                    "meaning": "status かく",
+                    "notes": "logical tree enumerating status of each thing"
+                },
+                {
+                    "character": "消",
+                    "meaning": "eliminate けす",
+                    "notes":
+                        "counterseptic eliminates pathogen on moon base with lit biohazard beacon"
+                },
+                {
+                    "character": "費",
+                    "meaning": "expense ひ",
+                    "notes": "spend throne and get seashell coin as change"
+                },
+                {
+                    "character": "税",
+                    "meaning": "tax ぜい",
+                    "notes": "tax on promethium pays for anti-mandrake reserves"
+                },
+                {
+                    "character": "仕",
+                    "meaning": "delegate し",
+                    "notes": "ultramarines gentleman is delegate"
+                },
+                {
+                    "character": "掲",
+                    "meaning": "bulletin",
+                    "notes":
+                        "bulletin warns of heretic carrying hand weapon at penitential festival"
+                },
+                {
+                    "character": "載",
+                    "meaning": "pedestal ",
+                    "notes":
+                        "chaplain's car has dedicated pedestal for him to stand on and orate from"
+                },
+                {
+                    "character": "品",
+                    "meaning": "wares ひな",
+                    "notes": "stack of identical bodygloves"
+                },
+                {
+                    "character": "異",
+                    "meaning": "to object い",
+                    "notes": "brain over common"
+                },
+                {
+                    "character": "場",
+                    "meaning": "place ば",
+                    "notes":
+                        "this place is the earth won by the guardsman to be his retirement fund."
+                },
+                {
+                    "character": "受",
+                    "meaning": "Receive じゅ",
+                    "notes":
+                        "Hive despot receives visitors guarded by disconcerting dual lightning-claw concubine"
+                },
+                {
+                    "character": "劇",
+                    "meaning": "Play, drama げき",
+                    "notes":
+                        "Allegorical play involving fighting grox dressed as carnosaur with power sword"
+                },
+                {
+                    "character": "逃",
+                    "meaning": "Escape にげる",
+                    "notes":
+                        "Desperate criminals escape leaving trillions on road"
+                },
+                {
+                    "character": "届",
+                    "meaning": "Notification とどけ",
+                    "notes":
+                        "Notification consists of chapter banner credential and reason"
+                },
+                {
+                    "character": "詳",
+                    "meaning": "Detail",
+                    "notes":
+                        "Detail-focussed commander even has a word on the disposition of sheep"
+                },
+                {
+                    "character": "細",
+                    "meaning": "Thin, fine",
+                    "notes":
+                        "Thread under brain influence is made finer, thinner"
+                },
+                {
+                    "character": "指",
+                    "meaning": "Finger ゆび",
+                    "notes":
+                        "Holding an auspex in one hand on a transparent deck, the sun below, operating touchscreen with one finger"
+                },
+                {
+                    "character": "能",
+                    "meaning": "competence のう",
+                    "notes":
+                        "Competent naval rating with augmetic arm on moon surface wields two auspexes"
+                },
+                {
+                    "character": "単",
+                    "meaning": "Single, primary たん",
+                    "notes": "sweat, brain, ray"
+                },
+                {
+                    "character": "属",
+                    "meaning": "Genus",
+                    "notes":
+                        "Beneath a chapter banner, a swarming xenos species rising from a catacomb"
+                },
+                {
+                    "character": "座",
+                    "meaning": "Seat せき",
+                    "notes":
+                        "Seats for workers in micro-manufactorum in hab, set on bare earth"
+                },
+                {
+                    "character": "運",
+                    "meaning": "Fortune (good or bad luck)",
+                    "notes":
+                        "With the military dispatched (on road) the rest is now up to fortune"
+                },
+                {
+                    "character": "現",
+                    "meaning": "At present",
+                    "notes": "What the king can currently personally see"
+                },
+                {
+                    "character": "戦",
+                    "meaning": "Fight",
+                    "notes": "Simple (violence) and marksman's honour (skill)"
+                },
+                {
+                    "character": "術",
+                    "meaning": "Art",
+                    "notes":
+                        "Whole column artfully sliced by wraithblade, heretical leaf is figurative eldar"
+                }
+            ]
+        },
+        {
+            "name": "2",
+            "id": "1",
+            "kanji": [
+                {
+                    "character": "楽",
+                    "meaning": "Comfort, ease",
+                    "notes":
+                        "Confort-giving white berries on tree, that give tingling sensation"
+                },
+                {
+                    "character": "評",
+                    "meaning": "Criticism",
+                    "notes": "Critical word that levels"
+                },
+                {
+                    "character": "信",
+                    "meaning": "Belief しん",
+                    "notes": "Believe in Guilliman's word (the codex) above all"
+                },
+                {
+                    "character": "決",
+                    "meaning": "Decision けつ",
+                    "notes":
+                        "Assassin marks decision to proceed by cleaning his weapons with counterseptic"
+                },
+                {
+                    "character": "周",
+                    "meaning": "Orbit しゅう",
+                    "notes":
+                        "hollowed out moon debris field is orbited by sealed Word Bearers flask"
+                },
+                {
+                    "character": "年",
+                    "meaning": "Year ねん",
+                    "notes": "A service rotation on a starport is one year"
+                },
+                {
+                    "character": "所",
+                    "meaning": "Place ところ",
+                    "notes": "??"
+                },
+                {
+                    "character": "度",
+                    "meaning": "Degree たび",
+                    "notes":
+                        "First degree of Calth arcology development is attained when populace can reproduce"
+                },
+                {
+                    "character": "詞",
+                    "meaning": "Linguistic communication し",
+                    "notes": "Words of bureacrats"
+                },
+                {
+                    "character": "作",
+                    "meaning": "Work さく",
+                    "notes": "The ultramarines do their work with a chainsword"
+                },
+                {
+                    "character": "編",
+                    "meaning": "Series, edition へん",
+                    "notes":
+                        "Every issue of a heretical edition is bound in sanctified thread, stored behind a shutter behind which is a locked gate"
+                },
+                {
+                    "character": "歌",
+                    "meaning": "Song うた",
+                    "notes":
+                        "someone doubly accepting their lacking condition sings"
+                },
+                {
+                    "character": "行",
+                    "meaning": "Line of text こう",
+                    "notes": "A line of eldar text on a column"
+                },
+                {
+                    "character": "動",
+                    "meaning": "Movement どう",
+                    "notes":
+                        "If you have extra armor but you also have power you can move"
+                },
+                {
+                    "character": "仲",
+                    "meaning": "Relationship",
+                    "notes":
+                        "Guilliman's centre is his relationship with those he leads"
+                },
+                {
+                    "character": "間",
+                    "meaning": "Interval あいだ",
+                    "notes":
+                        "For an interval while the sun's influence is felt inside a webway gate, it is safe to pass"
+                },
+                {
+                    "character": "頭",
+                    "meaning": "Head",
+                    "notes": "Xenos bean and page"
+                },
+                {
+                    "character": "規",
+                    "meaning": "Regulation",
+                    "notes":
+                        "What husbands are allowed to see is strictly regulated"
+                },
+                {
+                    "character": "造",
+                    "meaning": "Invent",
+                    "notes":
+                        "Word Bearers preacher invents lie as he declares it on the road with his followers"
+                },
+                {
+                    "character": "忠",
+                    "meaning": "Loyalty",
+                    "notes": "A centred heart is loyal"
+                },
+                {
+                    "character": "司",
+                    "meaning": "Government bureacrat つかさ",
+                    "notes":
+                        "Administratum bureacrat is unnoticed minor heretic"
+                },
+                {
+                    "character": "告",
+                    "meaning": "To declare こく",
+                    "notes":
+                        "Beastman standing over broken civilian declares his loyalty"
+                },
+                {
+                    "character": "示",
+                    "meaning": "To indicate",
+                    "notes": "Targeting reticle"
+                },
+                {
+                    "character": "屈",
+                    "meaning": "To yield",
+                    "notes":
+                        "Marines yield the field, departing in good order under banner"
+                },
+                {
+                    "character": "内",
+                    "meaning": "Interior ない",
+                    "notes": "Human entering catacomb"
+                },
+                {
+                    "character": "終",
+                    "meaning": "End つい",
+                    "notes": "Thread cut on Fenris"
+                },
+                {
+                    "character": "冬",
+                    "meaning": "Winter ふゆ",
+                    "notes": "on Valhalla, tracks over permafrost"
+                },
+                {
+                    "character": "巻",
+                    "meaning": "Volume かん",
+                    "notes":
+                        "Volumes of packaged daemonic incursion held in an archivist's holy mechadendrite"
+                },
+                {
+                    "character": "特",
+                    "meaning": "Special とく",
+                    "notes":
+                        "Temple dedicated to cattle stands out amongst the many more conventional temples"
+                },
+                {
+                    "character": "限",
+                    "meaning": "Limit げん",
+                    "notes":
+                        "Fortress spire etched with silver is a limit to daemons"
+                },
+                {
+                    "character": "第",
+                    "meaning": "Ordinal だい",
+                    "notes":
+                        "Manufactorum workers get paid local cash in sequentially numbered envelopes"
+                },
+                {
+                    "character": "売",
+                    "meaning": "To sell うる",
+                    "notes":
+                        "Gentleman recruit sells things on the black market"
+                },
+                {
+                    "character": "数",
+                    "meaning": "Numeric quantity かず",
+                    "notes":
+                        "The numeric quantity of grains of rice a woman ate only chaos (Tzeentch) can tell"
+                },
+                {
+                    "character": "録",
+                    "meaning": "Record, transcript ろく",
+                    "notes":
+                        "Record laid down on metal, extracted with thread of excruciation"
+                },
+                {
+                    "character": "像",
+                    "meaning": "Image ぞう",
+                    "notes":
+                        "Plainly fraudulent heroic image of Guilliman with an elephant"
+                },
+                {
+                    "character": "公",
+                    "meaning": "Public, open",
+                    "notes":
+                        "Augmetic legs removed and augmetic arm too, put on display for complete public scrutiny"
+                },
+                {
+                    "character": "演",
+                    "meaning": "Performance",
+                    "notes":
+                        "Chaos commander performs undercover, given a spritz of counterseptic to temporarily hide corruption"
+                },
+                {
+                    "character": "寅",
+                    "meaning": "Spirit tiger とら",
+                    "notes":
+                        "Chaos commander fleshcrafted into tiger, filled with heretical purpose and augmetics (legs)"
+                },
+                {
+                    "character": "恋",
+                    "meaning": "Love こい",
+                    "notes": "Mutagen enlarges heart, figuratively love"
+                },
+                {
+                    "character": "確",
+                    "meaning": "Definite かく",
+                    "notes": "Stone custodes is doubly 'definite'"
+                },
+                {
+                    "character": "石",
+                    "meaning": "Stone いし",
+                    "notes": "stone"
+                },
+                {
+                    "character": "性",
+                    "meaning": "Gender せい",
+                    "notes": "Pure attitude makes clear gender distinctions"
+                },
+                {
+                    "character": "光",
+                    "meaning": "Light ひかり",
+                    "notes":
+                        "Heretics transmuted by xenos technology into beacons walking on unaugmented legs"
+                },
+                {
+                    "character": "達",
+                    "meaning": "Collective suffix たち",
+                    "notes":
+                        "Travelling on road together is easier to be lucky. Collectivity is reinforced by extra lucky stroke."
+                },
+                {
+                    "character": "空",
+                    "meaning": "Air から",
+                    "notes": "Inspired recruit works with airy lightness"
+                },
+                {
+                    "character": "描",
+                    "meaning": "To draw",
+                    "notes": "Drawing with one hand, only flower on mind"
+                },
+                {
+                    "character": "絶",
+                    "meaning": "Extreme ぜつ",
+                    "notes":
+                        "An extremely powerful artifact, full blessed with both holy thread and color"
+                },
+                {
+                    "character": "対",
+                    "meaning": "Dyad たい",
+                    "notes":
+                        "Thesis (fully formed sentence) and antithesis (speck of an idea)"
+                },
+                {
+                    "character": "零",
+                    "meaning": "Zero れい",
+                    "notes":
+                        "Moment zero in conception, clean rain and life beginning below"
+                },
+                {
+                    "character": "命",
+                    "meaning": "Life いのち",
+                    "notes":
+                        "Life matchlessly protected by technology (conversion field) and faith (purity seal)"
+                },
+                {
+                    "character": "源",
+                    "meaning": "Wellspring みなもと",
+                    "notes":
+                        "Some hive-stack springs are just filthy waste water but counterseptic indicates clean"
+                },
+                {
+                    "character": "是",
+                    "meaning": "Justice ぜ",
+                    "notes": "Sun shining upon deserving rectitude is justice"
+                },
+                {
+                    "character": "提",
+                    "meaning": "Portable てい",
+                    "notes": "One-handed justice is portable justice."
+                },
+                {
+                    "character": "供",
+                    "meaning": "Companion",
+                    "notes":
+                        "Guilliman's companions are (and appear) common by necessity"
+                },
+                {
+                    "character": "隊",
+                    "meaning": "company, party たい",
+                    "notes":
+                        "A party of adventurers assemble in the shadow of a fortress spire to hunt a horned grox"
+                },
+                {
+                    "character": "紅",
+                    "meaning": "Ancient red",
+                    "notes":
+                        "Ancient red (old Mars) is thread of industry stretching back to antiquity"
+                },
+                {
+                    "character": "点",
+                    "meaning": "Point てん",
+                    "notes":
+                        "Psyker marks target point with little motes of plasma"
+                },
+                {
+                    "character": "姿",
+                    "meaning": "Attractive figure すがた",
+                    "notes":
+                        "Woman undergoing juvenat treatments will next have an attractive figure (but be the same mentally)"
+                },
+                {
+                    "character": "順",
+                    "meaning": "Order (of things) じゅん",
+                    "notes":
+                        "River of fated events ordained in page of Tzeentch's book"
+                },
+                {
+                    "character": "次",
+                    "meaning": "Next　じ",
+                    "notes":
+                        "Hoarfrost forms; next thing to be dealt with psychically is whatever happens to be lacking"
+                },
+                {
+                    "character": "賞",
+                    "meaning": "Prize しょう",
+                    "notes": "Bunker taken out, prize is medal (coin)"
+                },
+                {
+                    "character": "員",
+                    "meaning": "Member いん",
+                    "notes":
+                        "Unarmoured man has special seashell membership coin"
+                },
+                {
+                    "character": "先",
+                    "meaning": "Advance さき",
+                    "notes":
+                        "Advance group consists of beastman running ahead on their organic legs"
+                },
+                {
+                    "character": "兵",
+                    "meaning": "Soldier へい",
+                    "notes":
+                        "Properly armored soldier looks like a walking hill on two augmetic legs"
+                },
+                {
+                    "character": "浜",
+                    "meaning": "Shore はま",
+                    "notes":
+                        "Salty seaspray tastes a bit like counterseptic to soldier on shore"
+                },
+                {
+                    "character": "挿",
+                    "meaning": "Insert",
+                    "notes":
+                        "With one hand inserting components into extra armored tank with one side (axle and armor) off."
+                },
+                {
+                    "character": "込",
+                    "meaning": "Include こむ",
+                    "notes":
+                        "Those who meet the regiment in transit are included in the ranks"
+                },
+                {
+                    "character": "客",
+                    "meaning": "Guest  きゃく",
+                    "notes": "Guests are distinguished, each wears crested helm"
+                },
+                {
+                    "character": "応",
+                    "meaning": "Affirm おう",
+                    "notes":
+                        "In a secluded hab, conspirators affirm their heartfelt loyalty"
+                },
+                {
+                    "character": "援",
+                    "meaning": "Reinforce",
+                    "notes":
+                        "Fighting one-handed, your death-cultist ally comes to reinforce you"
+                },
+                {
+                    "character": "販",
+                    "meaning": "Commercial",
+                    "notes":
+                        "Commercial types working with low-denomination coins and opposing one another"
+                },
+                {
+                    "character": "始",
+                    "meaning": "Begin",
+                    "notes":
+                        "Woman with specialised augmetic arm lays out plain bodyglove to begin working on it"
+                },
+                {
+                    "character": "種",
+                    "meaning": "Class",
+                    "notes":
+                        "Fuel type and armor type are vehicle class specification"
+                },
+                {
+                    "character": "類",
+                    "meaning": "Variety",
+                    "notes":
+                        "Rice on big plant on left, reference book page on right describing variety"
+                },
+                {
+                    "character": "通",
+                    "meaning": "Connoisseur",
+                    "notes":
+                        "Even when travelling the things he uses are all expensive gene-print coded"
+                },
+                {
+                    "character": "常",
+                    "meaning": "Perpetual",
+                    "notes":
+                        "Peerpetual fought under the banner long since entombed under the bunker"
+                },
+                {
+                    "character": "樹",
+                    "meaning": "Tree plantation",
+                    "notes":
+                        "Tree plantation dedicated to drum production where only a speck of pesticide is allowed"
+                },
+                {
+                    "character": "脂",
+                    "meaning": "Fat",
+                    "notes":
+                        "Fat ship's captain nicknamed 'moon' reviewing auspex looking down at sun below"
+                },
+                {
+                    "character": "持",
+                    "meaning": "Standoff",
+                    "notes":
+                        "Outside temple with hand weapon, you can't enter and your opponent can't leave"
+                },
+                {
+                    "character": "徴",
+                    "meaning": "Emblem",
+                    "notes":
+                        "Underhive lord's emblem - broken column, the king himself under the mountain, continuous tracks for conveyer"
+                },
+                {
+                    "character": "催",
+                    "meaning": "Entertainment function",
+                    "notes":
+                        "Guilliman hosts entertainment function in aquila hall under hollowed-out mountain"
+                },
+                {
+                    "character": "織",
+                    "meaning": "Cloth",
+                    "notes":
+                        "Thread woven into rich brocade like a visual clarion to accompany ceremonial guard"
+                },
+                {
+                    "character": "登",
+                    "meaning": "Ascent",
+                    "notes":
+                        "Special command tent for mountain ascents packs down into the size of a large bean"
+                },
+                {
+                    "character": "話",
+                    "meaning": "Story",
+                    "notes": "Word spun by tongue into story"
+                },
+                {
+                    "character": "撃",
+                    "meaning": "To fire a weapon",
+                    "notes":
+                        "Car with one-shot rocket launcher, over the hand that fires it"
+                },
+                {
+                    "character": "着",
+                    "meaning": "To arrive",
+                    "notes":
+                        "Bulk transport full of wool arrives and is registered on dockyard scanner (eye)"
+                },
+                {
+                    "character": "需",
+                    "meaning": "Logistical Demand",
+                    "notes":
+                        "Rain ruining circuit board represents demand arising from attrition"
+                },
+                {
+                    "character": "準",
+                    "meaning": "Associate, quasi",
+                    "notes":
+                        "Associates of heretics are subject to cleansing (counterseptic, aquila) and scanning (ray)"
+                },
+                {
+                    "character": "納",
+                    "meaning": "To supply",
+                    "notes":
+                        "Thread of rappelling line dangling into interior of devastated hive, supplying essentials"
+                },
+                {
+                    "character": "複",
+                    "meaning": "Double, compound",
+                    "notes":
+                        "Warp rift and mechanicum vortex mutually reinforce each other"
+                },
+                {
+                    "character": "企",
+                    "meaning": "Scheme",
+                    "notes":
+                        "Refractor field masking a stasis field generator as part of a cunning scheme"
+                },
+                {
+                    "character": "庫",
+                    "meaning": "Warehouse",
+                    "notes":
+                        "Hab cell big enough to store a car in is a de facto warehouse"
+                },
+                {
+                    "character": "掘",
+                    "meaning": "To drill",
+                    "notes": "Hand weapon, yield"
+                },
+                {
+                    "character": "賭",
+                    "meaning": "Gamble",
+                    "notes":
+                        "Gambling chits (coins) used by prominent citizens when they gamble"
+                },
+                {
+                    "character": "週",
+                    "meaning": "Week",
+                    "notes":
+                        "Travellers spend a week on the orbit road before being allowed to leave the system"
+                },
+                {
+                    "character": "集",
+                    "meaning": "Collection",
+                    "notes":
+                        "Aquila over rogue trader's family tree, all members of whom contribute to collection"
+                },
+                {
+                    "character": "聴",
+                    "meaning": "To hear",
+                    "notes": "Ear, master-crafted, hears even heartbeats"
+                },
+                {
+                    "character": "愛",
+                    "meaning": "Affection",
+                    "notes":
+                        "Affection is evidence of heart inside monstrous warrior with lightning claws and continuous tracks"
+                },
+                {
+                    "character": "汎",
+                    "meaning": "Universal",
+                    "notes":
+                        "Universal counterseptic dispersal via droplets in wind"
+                },
+                {
+                    "character": "社",
+                    "meaning": "Shrine じゃ",
+                    "notes": "Shrine is basically altar dedicated to earth"
+                }
+            ]
+        },
+        {
+            "name": "3",
+            "id": "2",
+            "kanji": [
+                {
+                    "character": "具",
+                    "meaning": "Tool",
+                    "notes":
+                        "All mechanicus tools have eyes that only ever get to look at anvils"
+                },
+                {
+                    "character": "閉",
+                    "meaning": "To close",
+                    "notes":
+                        "With talented soldier holding door, it might as well be closed."
+                },
+                {
+                    "character": "利",
+                    "meaning": "Advantage",
+                    "notes":
+                        "Fighting next to promethium tank, fighter with power sword that can rupture tanks has advantage"
+                },
+                {
+                    "character": "団",
+                    "meaning": "Team だん",
+                    "notes":
+                        "Special team all wear bodygloves marked with symbolic speck of blood+"
+                },
+                {
+                    "character": "出",
+                    "meaning": "To emerge で",
+                    "notes":
+                        "A mountain-shaped necron fortress emerges from a geological mountain"
+                },
+                {
+                    "character": "望",
+                    "meaning": "Desire",
+                    "notes":
+                        "Desire is death (of self), tidal (lunar) attraction, rules (king) over all"
+                },
+                {
+                    "character": "願",
+                    "meaning": "Prayer がん",
+                    "notes":
+                        "Standing on a blasted plain, reading prayers from a page"
+                },
+                {
+                    "character": "語",
+                    "meaning": "Codified word ご",
+                    "notes":
+                        "Word accorded official status by five-member unarmored council"
+                },
+                {
+                    "character": "肩",
+                    "meaning": "Shoulder かた",
+                    "notes":
+                        "Tau giant shoulder pad looks like a shutter with a moon on it"
+                },
+                {
+                    "character": "胸",
+                    "meaning": "Torso　むね",
+                    "notes":
+                        "Special torso units of dark mechanicum robots have lunar alloys and ensorcelled misfortune for power"
+                },
+                {
+                    "character": "蓋",
+                    "meaning": "Hatch ふた",
+                    "notes":
+                        "Hatch is insignia (flowers) over bygone technology over what's basically a dish"
+                },
+                {
+                    "character": "連",
+                    "meaning": "Consecutive れん",
+                    "notes": "Consecutive is rush-hour cars on the road"
+                },
+                {
+                    "character": "銃",
+                    "meaning": "Rifle じゅう",
+                    "notes":
+                        "Golden heirloom rifle accompanied by ranged veteran who doesn't move much and still has organic legs"
+                },
+                {
+                    "character": "武",
+                    "meaning": "Martial",
+                    "notes":
+                        "Martial (as distinct from civilian) magazines that custodes use are marked with 'stop' for man-stopper"
+                },
+                {
+                    "character": "質",
+                    "meaning": "Quality しつ",
+                    "notes":
+                        "The quality mark is two loaves signifying consistency and a coin for the money-backed guarantee"
+                },
+                {
+                    "character": "高",
+                    "meaning": "High",
+                    "notes":
+                        "Hive nobility - iron-halo unarmored on top of catacomb full of unarmored"
+                },
+                {
+                    "character": "閃",
+                    "meaning": "A flash",
+                    "notes":
+                        "Man entering warded mechanicus gate is annihilated in a brief flash"
+                },
+                {
+                    "character": "名",
+                    "meaning": "Name めい",
+                    "notes":
+                        "Socialites evening bodygloves proclaim their house names"
+                },
+                {
+                    "character": "駆",
+                    "meaning": "Motive force",
+                    "notes":
+                        "Powerful engine logo is horse that can cross a segmentum"
+                },
+                {
+                    "character": "繰",
+                    "meaning": "Repeat",
+                    "notes":
+                        "Thread of tradition next to merchant family tree repeating their roles down the generations"
+                },
+                {
+                    "character": "神",
+                    "meaning": "God",
+                    "notes":
+                        "God represented by an altar to the Old Ones who made the Jokaero"
+                },
+                {
+                    "character": "交",
+                    "meaning": "Alternating",
+                    "notes":
+                        "Iron hands iron father surges with alternating current"
+                },
+                {
+                    "character": "専",
+                    "meaning": "Speciality",
+                    "notes":
+                        "Sanctioned heretical reason (savant) focussed on speck of lore"
+                },
+                {
+                    "character": "使",
+                    "meaning": "Messenger",
+                    "notes":
+                        "Alpha legion messenger carries heretical chronicle under ultramarines colors"
+                },
+                {
+                    "character": "変",
+                    "meaning": "Change へん",
+                    "notes":
+                        "Tzeentechi dark mechanicus mutagen-spraying combat servitor"
+                },
+                {
+                    "character": "題",
+                    "meaning": "Theme だい",
+                    "notes": "Justice (as overall theme) wraps written page"
+                },
+                {
+                    "character": "呼",
+                    "meaning": "To call",
+                    "notes":
+                        "Unarmored next to voice-levelling microphone with hook to hold it by"
+                },
+                {
+                    "character": "迅",
+                    "meaning": "Haste",
+                    "notes":
+                        "Holographic (ray) administratum apparatus on road is uncharacteristically hasty for administratum"
+                },
+                {
+                    "character": "速",
+                    "meaning": "Speed",
+                    "notes":
+                        "Bundle of radioactive fuel rods are the last word in fast road transport"
+                },
+                {
+                    "character": "増",
+                    "meaning": "Increase",
+                    "notes":
+                        "Earth output increases under influence of horns (nature), farmer's brain and natural resources (sun)"
+                },
+                {
+                    "character": "栄",
+                    "meaning": "Honour",
+                    "notes":
+                        "The tree of the scholam's former students is the substance of its honour"
+                },
+                {
+                    "character": "飾",
+                    "meaning": "Ornament",
+                    "notes":
+                        "Artificer-worked ceramite shoulder pad clutches banner with turret ornament on top"
+                },
+                {
+                    "character": "凄",
+                    "meaning": "Amazing",
+                    "notes":
+                        "Psychic (hoarfrost) and mechanicus (augmetic hand) combine to weave woman in amazing feat"
+                },
+                {
+                    "character": "谷",
+                    "meaning": "Valley",
+                    "notes":
+                        "Like gully but it has refractor field in the middle so it means valley"
+                },
+                {
+                    "character": "容",
+                    "meaning": "Appearance",
+                    "notes":
+                        "Crested helm tossed into valley to give appearance of casualty"
+                },
+                {
+                    "character": "役",
+                    "meaning": "Role",
+                    "notes":
+                        "Anti-structure missile is tailored for a specific role"
+                },
+                {
+                    "character": "更",
+                    "meaning": "Night watch",
+                    "notes":
+                        "Thinking of something absurd (Heretical biased jokaero with correction) to stay awake during night watch"
+                },
+                {
+                    "character": "購",
+                    "meaning": "Wholesale purchase",
+                    "notes":
+                        "Purchasing small seashell-coin-value items in bulk for whole academy"
+                },
+                {
+                    "character": "絵",
+                    "meaning": "Picture",
+                    "notes":
+                        "A picture is painted to tie attendees of meeting with symbolic thread"
+                },
+                {
+                    "character": "柄",
+                    "meaning": "Haft",
+                    "notes":
+                        "Mundane wood on haft wraps heretical interior core of disguised weapon"
+                },
+                {
+                    "character": "舗",
+                    "meaning": "Depot",
+                    "notes":
+                        "Word Bearers depot contains troops blood samples in warded flasks, plus and old IG dog tags"
+                },
+                {
+                    "character": "頂",
+                    "meaning": "Summit",
+                    "notes":
+                        "Single leaf retrieved from summit of mountain, attached to page in codex"
+                },
+                {
+                    "character": "机",
+                    "meaning": "Desk",
+                    "notes":
+                        "Sitting at wooden desk in classroom with fresh wind blowing in through open window"
+                },
+                {
+                    "character": "陣",
+                    "meaning": "Encampment",
+                    "notes":
+                        "Temporary fortress tower set up to watch over vehicle"
+                },
+                {
+                    "character": "書",
+                    "meaning": "Report",
+                    "notes":
+                        "Reports are made by the remembrancers, whose symbol is  a stylus over Sol"
+                },
+                {
+                    "character": "例",
+                    "meaning": "Example",
+                    "notes":
+                        "Guilliman slices impervious xenos bone with power sword to make example"
+                },
+                {
+                    "character": "念",
+                    "meaning": "Notion",
+                    "notes":
+                        "The current moment of the heart is notion after notion"
+                },
+                {
+                    "character": "招",
+                    "meaning": "Invite",
+                    "notes":
+                        "One-handed weapon proffered as invitation to professional (knife) and amateur (unarmored) would-be assassins"
+                },
+                {
+                    "character": "軽",
+                    "meaning": "Lightweight",
+                    "notes":
+                        "Car feels deceptively lightweight to the driver influenced by amasec"
+                },
+                {
+                    "character": "奢",
+                    "meaning": "Luxury",
+                    "notes":
+                        "Prominent imperial citizen (with dot) proclaims his significance with an extravagant big display held over his head"
+                },
+                {
+                    "character": "鍍",
+                    "meaning": "To gild",
+                    "notes": "Gold, but to a degree"
+                },
+                {
+                    "character": "河",
+                    "meaning": "River",
+                    "notes":
+                        "Hygiene (counterseptic) level acceptable sufficiently fast-flowing river"
+                },
+                {
+                    "character": "会",
+                    "meaning": "Meeting",
+                    "notes":
+                        "Conversion field active over fortress wall, behind which meeting takes place"
+                },
+                {
+                    "character": "妖",
+                    "meaning": "Dubious",
+                    "notes": "Dubious woman accompanying ecclesiarch"
+                },
+                {
+                    "character": "輝",
+                    "meaning": "Sparkle",
+                    "notes": "An army of lights sparkles in the darkness"
+                },
+                {
+                    "character": "守",
+                    "meaning": "Watch over ",
+                    "notes":
+                        "Commander watches over battlezone, specks on hololith"
+                },
+                {
+                    "character": "焼",
+                    "meaning": "roast",
+                    "notes": "fire attended by chef is for roasting"
+                },
+                {
+                    "character": "護",
+                    "meaning": "Amulet",
+                    "notes":
+                        "Word of the emperor borne by sister of silence - wreath on head, aquila on breast, genitals"
+                },
+                {
+                    "character": "精",
+                    "meaning": "sprite",
+                    "notes":
+                        "sprite combines abundance of rice with blue-green of chlorophyll"
+                },
+                {
+                    "character": "青",
+                    "meaning": "blue-green",
+                    "notes":
+                        "doubtful moon image captured on unreliable hardware flickers blue-green"
+                },
+                {
+                    "character": "鋭",
+                    "meaning": "sharpness",
+                    "notes":
+                        "the unearthly sharpness of mandrake weapons glint gold in the darkness"
+                },
+                {
+                    "character": "遺",
+                    "meaning": "bequest",
+                    "notes":
+                        "bleeding to death on road, man bequeaths both credit card and coins to accompanying son"
+                },
+                {
+                    "character": "伝",
+                    "meaning": "biography",
+                    "notes": "Guilliman's biography is a cloud of great deeds"
+                },
+                {
+                    "character": "操",
+                    "meaning": "chastity",
+                    "notes":
+                        "the chastity of the merchant family line is preserved with hand weapons"
+                },
+                {
+                    "character": "超",
+                    "meaning": "super-",
+                    "notes":
+                        "superhuman combines strengths of both fighters and civilians with great speed (run)"
+                },
+                {
+                    "character": "比",
+                    "meaning": "ratio",
+                    "notes": "two auspexes together allow measurement of ratios"
+                },
+                {
+                    "character": "渡",
+                    "meaning": "ferry",
+                    "notes":
+                        "rinsed in counterseptic for every trip, ferry is ship of least degree"
+                },
+                {
+                    "character": "彼",
+                    "meaning": "he, him",
+                    "notes":
+                        "intimidating other man standing apart by broken column, wrapped in hide"
+                },
+                {
+                    "character": "器",
+                    "meaning": "capacity",
+                    "notes":
+                        "four bodygloves stitched together to make a large capacity thing to contain big"
+                },
+                {
+                    "character": "堅",
+                    "meaning": "firm",
+                    "notes": "??"
+                },
+                {
+                    "character": "牢",
+                    "meaning": "prison",
+                    "notes":
+                        "prison governor is commander of inmates he sees as cattle"
+                },
+                {
+                    "character": "無",
+                    "meaning": "nothing",
+                    "notes":
+                        "defense laser (turret on vault on plasma) reduces all targets to nothing"
+                },
+                {
+                    "character": "器",
+                    "meaning": "capacity",
+                    "notes":
+                        "four bodygloves stitched together to make a large capacity thing to contain big"
+                },
+                {
+                    "character": "剣",
+                    "meaning": "sword",
+                    "notes": "inquisitor and power sword"
+                },
+                {
+                    "character": "揮",
+                    "meaning": "Exert as in will",
+                    "notes": "hand weapon next to military"
+                },
+                {
+                    "character": "官",
+                    "meaning": "Government authority",
+                    "notes": "Crested helm over ?"
+                },
+                {
+                    "character": "屠",
+                    "meaning": "slaughter",
+                    "notes": "chapter banner over citizen"
+                },
+                {
+                    "character": "崇",
+                    "meaning": "sublime",
+                    "notes": "mountain, crested helm, targeting reticle"
+                },
+                {
+                    "character": "拝",
+                    "meaning": "worship",
+                    "notes": "hand weapon next to heretical grinweed"
+                },
+                {
+                    "character": "族",
+                    "meaning": "people",
+                    "notes": "pilgrimage around arrow"
+                },
+                {
+                    "character": "君",
+                    "meaning": "bro",
+                    "notes": "power axe over bodyglove?"
+                },
+                {
+                    "character": "群",
+                    "meaning": "flock",
+                    "notes": "bro next to sheep"
+                },
+                {
+                    "character": "技",
+                    "meaning": "learned skill",
+                    "notes": "hand weapon next to bolster"
+                },
+                {
+                    "character": "快",
+                    "meaning": "wellbeing",
+                    "notes": "attitude next to assassin"
+                },
+                {
+                    "character": "歴",
+                    "meaning": "history",
+                    "notes":
+                        "hive stack around two trees over stop/stasis field"
+                },
+                {
+                    "character": "怖",
+                    "meaning": "terror",
+                    "notes":
+                        "terror troops' attitude runs to carrying cloth (actually flayed skin) at waist"
+                },
+                {
+                    "character": "恐",
+                    "meaning": "fear",
+                    "notes":
+                        "fear: industry and scent of blood on wind lies upon heart"
+                },
+                {
+                    "character": "死",
+                    "meaning": "death",
+                    "notes":
+                        "(bone) auspex of legion of the damned detects only death"
+                },
+                {
+                    "character": "挑",
+                    "meaning": "challenge",
+                    "notes":
+                        "with only one hand weapon nevertheless challenge billions"
+                },
+                {
+                    "character": "整",
+                    "meaning": "undivided",
+                    "notes":
+                        "bundled chaos undivided pulled together over correctness"
+                },
+                {
+                    "character": "流",
+                    "meaning": "flow",
+                    "notes":
+                        "veteran stands over fast-flowing chemical river, moistened by rising spray"
+                },
+                {
+                    "character": "域",
+                    "meaning": "region",
+                    "notes": "region is arbitrary quantity of earth"
+                },
+                {
+                    "character": "苦",
+                    "meaning": "distress",
+                    "notes": "flowers are useless balm for distress of the old"
+                },
+                {
+                    "character": "道",
+                    "meaning": "path",
+                    "notes":
+                        "notional path is road walked by organisational head (neck)"
+                },
+                {
+                    "character": "首",
+                    "meaning": "neck, chief",
+                    "notes":
+                        "chaos gifts bestowed on chaos leader: horns and heretical augmented eye"
+                },
+                {
+                    "character": "貯",
+                    "meaning": "storage",
+                    "notes":
+                        "coin to store something wrapped in preservative 'leader leaves' (certificates)"
+                },
+                {
+                    "character": "或",
+                    "meaning": "some arbitrary",
+                    "notes":
+                        "unarmored scout is minimum/arbitrary notional soldier"
+                },
+                {
+                    "character": "帝",
+                    "meaning": "pope",
+                    "notes":
+                        "pope has crown with reliquary (vase) on top over his personal banner"
+                },
+                {
+                    "character": "続",
+                    "meaning": "continue",
+                    "notes":
+                        "use is continued: thread of usage prolonged by sale to new owner"
+                },
+                {
+                    "character": "脅",
+                    "meaning": "threaten",
+                    "notes":
+                        "overwhelming fleet of three powers holding station over moon, threatening"
+                }
+            ]
+        },
+        {
+            "name": "4",
+            "id": "3",
+            "kanji": [
+                {
+                    "character": "崩",
+                    "meaning": "attrite, crumble",
+                    "notes":
+                        "figurative mountain pulled apart over two moons (and their gravity)"
+                },
+                {
+                    "character": "屯",
+                    "meaning": "station (troops)",
+                    "notes":
+                        "preacher's presence is telltale sign of area designated for stationing of troops"
+                },
+                {
+                    "character": "沌",
+                    "meaning": "random",
+                    "notes":
+                        "priest splashes purified water (counterseptic) randomly             "
+                },
+                {
+                    "character": "端",
+                    "meaning": "apex",
+                    "notes":
+                        "vase is apex of xenos computer - mountain build of/over circuit boards"
+                },
+                {
+                    "character": "素",
+                    "meaning": "element",
+                    "notes":
+                        "doubt woven into thread of science by definition of irreducible elements"
+                },
+                {
+                    "character": "杯",
+                    "meaning": "cup",
+                    "notes": "wooden cup of brief denial (not)"
+                },
+                {
+                    "character": "然",
+                    "meaning": "nature (wild)",
+                    "notes":
+                        "perverse parody of nature: double night to make hound over plasma flames"
+                },
+                {
+                    "character": "帰",
+                    "meaning": "return",
+                    "notes":
+                        "power sword in hand, augmetic arm honour guard returns"
+                },
+                {
+                    "character": "布",
+                    "meaning": "cloth",
+                    "notes": "scrap of banner at waist is now only cloth"
+                },
+                {
+                    "character": "市",
+                    "meaning": "city",
+                    "notes":
+                        "every city-state is big enough to have a banner with a crown"
+                },
+                {
+                    "character": "統",
+                    "meaning": "lineage",
+                    "notes":
+                        "lineage is thread (so passed on from one to one) of talented ranged veterans"
+                },
+                {
+                    "character": "負",
+                    "meaning": "a loss",
+                    "notes": "a loss is represented as chain on coin itself"
+                },
+                {
+                    "character": "徹",
+                    "meaning": "thorough",
+                    "notes":
+                        "cadian veterans training on moon between necron pylons and chaos, are thorough"
+                },
+                {
+                    "character": "解",
+                    "meaning": "to resolve",
+                    "notes":
+                        "chained broken purpose is resolved with knife-cattle sacrifice"
+                },
+                {
+                    "character": "弾",
+                    "meaning": "bullet",
+                    "notes": "bullet is bow but simplest projectile"
+                },
+                {
+                    "character": "革",
+                    "meaning": "leather",
+                    "notes":
+                        "squad from same hive gang bind middles with leather but leave legs free (line)"
+                },
+                {
+                    "character": "勝",
+                    "meaning": "to win",
+                    "notes":
+                        "with lunar influence and daemonic incursion feeding power, inevitable win"
+                },
+                {
+                    "character": "範",
+                    "meaning": "input range",
+                    "notes":
+                        "input controls over associated car and scroll declaring permitted input range"
+                },
+                {
+                    "character": "波",
+                    "meaning": "wave",
+                    "notes":
+                        "think of the ocean as fenris's hide, shaking loose spray"
+                },
+                {
+                    "character": "初",
+                    "meaning": "first",
+                    "notes": "first warp rift was created with ritual knife"
+                },
+                {
+                    "character": "聖",
+                    "meaning": "holy",
+                    "notes":
+                        "holy person hears divine message and is unarmoured; is even over king"
+                },
+                {
+                    "character": "剣",
+                    "meaning": "to inspect",
+                    "notes":
+                        "inquisitor conducts inspection with obvious power sword"
+                },
+                {
+                    "character": "軌",
+                    "meaning": "alotted course",
+                    "notes":
+                        "car can be assigned number nine when assigned a specific course"
+                },
+                {
+                    "character": "替",
+                    "meaning": "financial exchange",
+                    "notes":
+                        "two husbands of matriarchs meet in orbit over sun to transact financial exchange"
+                },
+                {
+                    "character": "揚",
+                    "meaning": "to hoist",
+                    "notes":
+                        "retirement fund exists to hoist those who only have one hand weapon left"
+                },
+                {
+                    "character": "復",
+                    "meaning": "restore",
+                    "notes":
+                        "broken column is rebuilt and vortex in xenos temple is restored"
+                },
+                {
+                    "character": "後",
+                    "meaning": "after",
+                    "notes":
+                        "monofilament tripwire on column defeats continuous tracks after initial engagement"
+                },
+                {
+                    "character": "緑",
+                    "meaning": "green",
+                    "notes": "woven thread and threat of excruciation"
+                },
+                {
+                    "character": "尾",
+                    "meaning": "tail",
+                    "notes":
+                        "Space Wolves chapter banner has wolf tails (hair/fur?) hanging from it"
+                },
+                {
+                    "character": "迎",
+                    "meaning": "receive a person",
+                    "notes":
+                        "concealed combat knife and purity seal for protection when receiving diplomat out on road"
+                },
+                {
+                    "character": "亜",
+                    "meaning": "sub-",
+                    "notes":
+                        "power sub-cell is like battery but with terminals on bottom as well"
+                },
+                {
+                    "character": "独",
+                    "meaning": "solitary",
+                    "notes":
+                        "hound (hunting) insect is solitary, distinct from social insects"
+                },
+                {
+                    "character": "追",
+                    "meaning": "chaser",
+                    "notes":
+                        "planetary governer chases real holders of power out onto road"
+                },
+                {
+                    "character": "返",
+                    "meaning": "to give back",
+                    "notes":
+                        "Having left, confronted on road and forced to give back stolen thing "
+                },
+                {
+                    "character": "備",
+                    "meaning": "spare, extra",
+                    "notes":
+                        "Ultramarine flower-designated hive stacks are dedicated spares usage"
+                },
+                {
+                    "character": "宇",
+                    "meaning": "space vacuum",
+                    "notes":
+                        "crested helm is marine, dry is the vacuum that is their realm"
+                },
+                {
+                    "character": "宙",
+                    "meaning": "space expanse",
+                    "notes":
+                        "crested helm is marine, expanse is their reason for being"
+                },
+                {
+                    "character": "功",
+                    "meaning": "spoils",
+                    "notes":
+                        "industry of power is ultimately only concerned with spoils"
+                },
+                {
+                    "character": "突",
+                    "meaning": "abrupt",
+                    "notes":
+                        "leader recruit's unschooled responses to big things are abrupt"
+                },
+                {
+                    "character": "伎",
+                    "meaning": "popular theatre",
+                    "notes":
+                        "guilliman alone considers theatre a useful branch of endeavour"
+                },
+                {
+                    "character": "岐",
+                    "meaning": "forking road",
+                    "notes": "mountain causes branch in road"
+                },
+                {
+                    "character": "怪",
+                    "meaning": "ghost",
+                    "notes":
+                        "an attitude softened by amasec abuse leaves one open to seeing ghosts"
+                },
+                {
+                    "character": "肢",
+                    "meaning": "limb",
+                    "notes":
+                        "lunar influence prompts growth of branches (limbs)"
+                },
+                {
+                    "character": "任",
+                    "meaning": "entrust",
+                    "notes":
+                        "guilliman entrusts even servitors with important tasks"
+                },
+                {
+                    "character": "侵",
+                    "meaning": "intrusion",
+                    "notes":
+                        "guilliman has right to intrude on Magos Biologis sanctioned breeding programme"
+                },
+                {
+                    "character": "務",
+                    "meaning": "duty",
+                    "notes":
+                        "obliged by duty, cadians prepare in advance of chaos invasion"
+                },
+                {
+                    "character": "衛",
+                    "meaning": "security",
+                    "notes": "for security's sake navigator hides in ruins "
+                },
+                {
+                    "character": "直",
+                    "meaning": "straight",
+                    "notes":
+                        "an organic eye needs both a laser and a square to make something straight"
+                },
+                {
+                    "character": "置",
+                    "meaning": "to place",
+                    "notes":
+                        "an augmetic eye sees straight lines overlaid and correctly places things effortlessly"
+                },
+                {
+                    "character": "値",
+                    "meaning": "price",
+                    "notes":
+                        "In Guilliman's straightened world everything in effect is assigned a price"
+                },
+                {
+                    "character": "植",
+                    "meaning": "a plant",
+                    "notes":
+                        "normal plants are straight (genetically unpolluted) trees"
+                },
+                {
+                    "character": "尺",
+                    "meaning": "foot (length)",
+                    "notes": "A modified 'r'"
+                },
+                {
+                    "character": "択",
+                    "meaning": "an option",
+                    "notes":
+                        "fighting with hand weapons, a foot of distance between opponents opens up options"
+                },
+                {
+                    "character": "柱",
+                    "meaning": "a column",
+                    "notes": "only leader trees are tall enough to be columns"
+                },
+                {
+                    "character": "強",
+                    "meaning": "strong",
+                    "notes":
+                        "armed with only a bow an augmetic arm defeats opponents like insects"
+                },
+                {
+                    "character": "教",
+                    "meaning": "to teach",
+                    "notes": "cognitae savant over child inculcates chaos"
+                },
+                {
+                    "character": "勇",
+                    "meaning": "courage",
+                    "notes": "geneprinted men are all bred for courage"
+                },
+                {
+                    "character": "報",
+                    "meaning": "news",
+                    "notes":
+                        "troops' news is a careful mix of good fortune, purity (seal) and sex"
+                },
+                {
+                    "character": "皇",
+                    "meaning": "emperor",
+                    "notes": "universal (all-spectrum) over king"
+                },
+                {
+                    "character": "略",
+                    "meaning": "sketch",
+                    "notes": "brain multi-tasking sketches plan for each item"
+                },
+                {
+                    "character": "関",
+                    "meaning": "connection",
+                    "notes":
+                        "chaos idol installed in gate establishes connection to distant place"
+                },
+                {
+                    "character": "収",
+                    "meaning": "income",
+                    "notes": "collection box for non-combatant woman"
+                },
+                {
+                    "character": "策",
+                    "meaning": "(to take a) measure",
+                    "notes":
+                        "mechanicus countermeasure package is input fields over asset set (modified bundle)"
+                },
+                {
+                    "character": "効",
+                    "meaning": "effectiveness",
+                    "notes":
+                        "continually oscillating power is unusually effective against shields"
+                },
+                {
+                    "character": "拾",
+                    "meaning": "to gather",
+                    "notes":
+                        "going about gathering (unifying) things with your hand"
+                },
+                {
+                    "character": "谷",
+                    "meaning": "valley",
+                    "notes":
+                        "like a gully but deep enough that you can shield it with a refractor field"
+                },
+                {
+                    "character": "合",
+                    "meaning": "union",
+                    "notes":
+                        "conversion field protects meeting of unarmored participants in union"
+                },
+                {
+                    "character": "紀",
+                    "meaning": "?",
+                    "notes": "?"
+                },
+                {
+                    "character": "移",
+                    "meaning": "migration",
+                    "notes":
+                        "in the darkness of Old Night, humans were reduced to migrating promethium scavengers"
+                },
+                {
+                    "character": "雑",
+                    "meaning": "miscellaneous",
+                    "notes":
+                        "multitudinous (nine) family if miscellanous people united by aquila"
+                },
+                {
+                    "character": "悪",
+                    "meaning": "evil",
+                    "notes": "sub-heart (id) is evil"
+                },
+                {
+                    "character": "逆",
+                    "meaning": "backwards",
+                    "notes": "ogryn on road goes backwards"
+                },
+                {
+                    "character": "蛮",
+                    "meaning": "savage",
+                    "notes":
+                        "mutagen engineered to produce savagery reduces victims to insects"
+                },
+                {
+                    "character": "潜",
+                    "meaning": "to dive",
+                    "notes":
+                        "accountant spritzes interface plugs with counterseptic before diving into financial exchange"
+                },
+                {
+                    "character": "闇",
+                    "meaning": "darkness",
+                    "notes":
+                        "beyond the gate into darkness only sound can be perceived"
+                },
+                {
+                    "character": "多",
+                    "meaning": "many",
+                    "notes": "old night is full of many terrors"
+                },
+                {
+                    "character": "進",
+                    "meaning": "progress",
+                    "notes": "preheresy road of progress under aquila"
+                },
+                {
+                    "character": "従",
+                    "meaning": "obey",
+                    "notes":
+                        "an accursed alien column imposes horned obedience on otherwise rectitude"
+                },
+                {
+                    "character": "歪",
+                    "meaning": "distorted",
+                    "notes": "'not' stamped over correct"
+                },
+                {
+                    "character": "蔵",
+                    "meaning": "store of (x)",
+                    "notes":
+                        "under rain of flowers parade of retainers carry plunder back to stores"
+                },
+                {
+                    "character": "証",
+                    "meaning": "evidence",
+                    "notes": "words - true"
+                },
+                {
+                    "character": "訓",
+                    "meaning": "training",
+                    "notes":
+                        "soldiers training in river listening to words yelled by sergeant"
+                },
+                {
+                    "character": "須",
+                    "meaning": "obligatory",
+                    "notes":
+                        "following schematic pages is obligatory for true mechanicus"
+                },
+                {
+                    "character": "雇",
+                    "meaning": "to hire",
+                    "notes":
+                        "shutter of landing craft shades aquila hiring mercenaries beneath"
+                },
+                {
+                    "character": "脳",
+                    "meaning": "to worry",
+                    "notes":
+                        "taxed by lunar influence, worried man sweats over misfortune"
+                },
+                {
+                    "character": "純",
+                    "meaning": "unadulterated",
+                    "notes":
+                        "preacher's unadulterated brandy is sealed with red thread"
+                },
+                {
+                    "character": "治",
+                    "meaning": "cure",
+                    "notes":
+                        "counterseptic, and augmetic arm mending clothing- two kinds of cure"
+                },
+                {
+                    "character": "泥",
+                    "meaning": "mud",
+                    "notes":
+                        "trudging through mud, chapter banner high, auspex in hand, constant counterseptic"
+                },
+                {
+                    "character": "政",
+                    "meaning": "government",
+                    "notes":
+                        "government exists to apply correction to otherwise chaos-prone populace"
+                },
+                {
+                    "character": "携",
+                    "meaning": "hand-carried",
+                    "notes":
+                        "all hand-carried weapons includes aquila-stamped contract of ownership"
+                },
+                {
+                    "character": "粋",
+                    "meaning": "refinement",
+                    "notes":
+                        "rice scanned by nine different rays for the most refined palates"
+                },
+                {
+                    "character": "唱",
+                    "meaning": "chorus",
+                    "notes":
+                        "electromagnetic chorus of twinned suns fall on unarmored mystic"
+                },
+                {
+                    "character": "刃",
+                    "meaning": "cutting edge",
+                    "notes": "knife with overlaid line to suggest cut of edge"
+                },
+                {
+                    "character": "認",
+                    "meaning": "formal approval",
+                    "notes":
+                        "word of formal approval of use of phase edge that cuts heart"
+                },
+                {
+                    "character": "苛",
+                    "meaning": "harass",
+                    "notes":
+                        "flowers are acceptable so spamming them is a technically legal harassment method"
+                },
+                {
+                    "character": "総",
+                    "meaning": "general (as opposed to specific)",
+                    "notes":
+                        "general material covers common threads, public information, general impressions (heart)"
+                },
+                {
+                    "character": "界",
+                    "meaning": "realm",
+                    "notes":
+                        "care of chaos god's realm is totally subordinated to that god's mind"
+                },
+                {
+                    "character": "経",
+                    "meaning": "to weather",
+                    "notes":
+                        "thread of weathered taxing experiences soothed by amasec"
+                },
+                {
+                    "character": "幹",
+                    "meaning": "trunk",
+                    "notes": "mist next to refractor field over dry"
+                },
+                {
+                    "character": "迫",
+                    "meaning": "figurative pressure",
+                    "notes":
+                        "unit of cadians under attack on road, being bled white"
+                }
+            ]
+        },
+        {
+            "name": "5",
+            "id": "4",
+            "kanji": [
+                {
+                    "character": "換",
+                    "meaning": "exchange like for like",
+                    "notes":
+                        "quartermaster exchanges hand weapons, constrained to like FOUR like, from his big inventory"
+                },
+                {
+                    "character": "脚",
+                    "meaning": "leg",
+                    "notes":
+                        "skitarii all have flesh legs replaced bygone technology, marked with forge world glyph"
+                },
+                {
+                    "character": "旦",
+                    "meaning": "rise over horizon",
+                    "notes": "sun rising over horizon"
+                },
+                {
+                    "character": "担",
+                    "meaning": "to secure (stow)",
+                    "notes":
+                        "hand weapons must be secured as ship crosses into solar storm"
+                },
+                {
+                    "character": "験",
+                    "meaning": "to test",
+                    "notes":
+                        "disguised inquisitor on horse tests planetary defenses in person "
+                },
+                {
+                    "character": "式",
+                    "meaning": "formula",
+                    "notes":
+                        "keystone of bolter round industry is sacred formula"
+                },
+                {
+                    "character": "試",
+                    "meaning": "exam",
+                    "notes": "at exam students must recite formulae in words"
+                },
+                {
+                    "character": "故",
+                    "meaning": "incident",
+                    "notes": "old chaos residue marks site of incident"
+                },
+                {
+                    "character": "否",
+                    "meaning": "negate",
+                    "notes":
+                        "unarmored civilian's rights totally negated by noospheric 'not'"
+                },
+                {
+                    "character": "接",
+                    "meaning": "to join",
+                    "notes":
+                        "with one hand pour vase of liquid over woman to join her to cult"
+                },
+                {
+                    "character": "剤",
+                    "meaning": "chemical compound",
+                    "notes":
+                        "chemical compound is prepared by stirring unguent with powered stirring blades"
+                },
+                {
+                    "character": "節",
+                    "meaning": "logical section",
+                    "notes":
+                        "logical sections of book separated by ceramite ultima symbol, input fields to choose"
+                },
+                {
+                    "character": "危",
+                    "meaning": "hazard",
+                    "notes":
+                        "quarantined (chained) hive stack contains hazards unleashed from scroll"
+                },
+                {
+                    "character": "険",
+                    "meaning": "risk",
+                    "notes":
+                        "inquisitor aware of hidden risk stalks shadow of fortress spire"
+                },
+                {
+                    "character": "捨",
+                    "meaning": "discard",
+                    "notes":
+                        "word bearers one-handedly discard flasks of loyalist gene-seed"
+                },
+                {
+                    "character": "施",
+                    "meaning": "to dispense",
+                    "notes": "each pilgrim has grenade-shaped incense dispenser"
+                },
+                {
+                    "character": "量",
+                    "meaning": "amount",
+                    "notes":
+                        "amount of time condemned has to repent is sunrise to 1km "
+                },
+                {
+                    "character": "締",
+                    "meaning": "to bind",
+                    "notes": "pope binds daemons with holy thread"
+                },
+                {
+                    "character": "穫",
+                    "meaning": "to harvest",
+                    "notes":
+                        "planetary tithe (harvest) in promethium and manpower (laurel, aquila, fertility)"
+                },
+                {
+                    "character": "控",
+                    "meaning": "to be restrained",
+                    "notes":
+                        "sky martial artist voluntarily restrains self from hand weapons"
+                },
+                {
+                    "character": "留",
+                    "meaning": "to remain",
+                    "notes":
+                        "assassin with execution warrant and weapon on mind remains unceasingly focussed"
+                },
+                {
+                    "character": "脱",
+                    "meaning": "to shed",
+                    "notes":
+                        "under dim moonlight a mandrake begins to shed its solid form"
+                },
+                {
+                    "character": "傷",
+                    "meaning": "a wound",
+                    "notes":
+                        "guilliman takes but a wound from a plasma turret and guardsman all together"
+                },
+                {
+                    "character": "匠",
+                    "meaning": "craft",
+                    "notes": "craft represented by an enclave of bakery"
+                },
+                {
+                    "character": "温",
+                    "meaning": "warm temperature",
+                    "notes":
+                        "tissue culture dish kept carefully warm under counterseptic and sunlight"
+                },
+                {
+                    "character": "昔",
+                    "meaning": "legendary past",
+                    "notes":
+                        "sol (wreath over sun) is a reference to mankind's legendary past"
+                },
+                {
+                    "character": "照",
+                    "meaning": "illuminate",
+                    "notes":
+                        "private meeting suddenly illuminated by sunlight and light from plasma weaponry"
+                },
+                {
+                    "character": "暖",
+                    "meaning": "figuratively warm",
+                    "notes":
+                        "the conditioned warmth that death cultists all feel for those associated with Sol"
+                },
+                {
+                    "character": "旧",
+                    "meaning": "antiquated",
+                    "notes":
+                        "antiquated sun has shrunk from initial size marked on side"
+                },
+                {
+                    "character": "焔",
+                    "meaning": "blaze",
+                    "notes": "a great blaze of quarantined (bound) antiquities"
+                },
+                {
+                    "character": "篤",
+                    "meaning": "hot without fire",
+                    "notes": "heat of great biological activity (like horse)"
+                },
+                {
+                    "character": "憎",
+                    "meaning": "hatred",
+                    "notes":
+                        "attitude of hate-filled chaos engine is feral machine spirit over heat of sun"
+                },
+                {
+                    "character": "必",
+                    "meaning": "geas",
+                    "notes": "geas is heart with suspended wound laid across it"
+                },
+                {
+                    "character": "密",
+                    "meaning": "esoteric",
+                    "notes":
+                        "esoteric studies for leaders under geas studied on mountain"
+                },
+                {
+                    "character": "針",
+                    "meaning": "needle",
+                    "notes": "A needle like a gleaming ray of metal"
+                },
+                {
+                    "character": "北",
+                    "meaning": "North",
+                    "notes": "just rememer it"
+                },
+                {
+                    "character": "背",
+                    "meaning": "spinal column",
+                    "notes":
+                        "north - top of head, flesh character that looks like vertebrae"
+                },
+                {
+                    "character": "依",
+                    "meaning": "self??",
+                    "notes": "doge"
+                },
+                {
+                    "character": "皆",
+                    "meaning": "everyone",
+                    "notes":
+                        "in north spectrum of combat forces (everyone) come together to defend polar fortress"
+                },
+                {
+                    "character": "頼",
+                    "meaning": "formally request",
+                    "notes":
+                        "formal request is bundled pages of bureacratic approval"
+                },
+                {
+                    "character": "在",
+                    "meaning": "presently existing",
+                    "notes":
+                        "daemon on solid earth exists, for the present anyway"
+                },
+                {
+                    "character": "射",
+                    "meaning": "to shoot out",
+                    "notes":
+                        "great fleshy body of tyranid ship shoots out specks"
+                },
+                {
+                    "character": "裏",
+                    "meaning": "reverse side",
+                    "notes":
+                        "reverse side of Templar's glory is the kilometre of enemies between tabard and iron halo"
+                },
+                {
+                    "character": "如",
+                    "meaning": "as previously",
+                    "notes":
+                        "woman buys a second bodyglove like the first she already has, just in case"
+                },
+                {
+                    "character": "違",
+                    "meaning": "wrong",
+                    "notes": "wrong - navigators don't walk on roads"
+                },
+                {
+                    "character": "雄",
+                    "meaning": "bull-(x)",
+                    "notes":
+                        "bull combat servitor has stowed augmetic arm and giant aquila tattoo"
+                },
+                {
+                    "character": "異",
+                    "meaning": "dissent",
+                    "notes":
+                        "the notional brain of common citizenry is afflicted by dissent"
+                },
+                {
+                    "character": "狡",
+                    "meaning": "cunning",
+                    "notes":
+                        "hound with alternating tactical circuit is cunning"
+                },
+                {
+                    "character": "敵",
+                    "meaning": "enemy",
+                    "notes":
+                        "shop selling chaos-touched dolls is only visible sign of enemy"
+                },
+                {
+                    "character": "述",
+                    "meaning": "to state",
+                    "notes":
+                        "warlock thrusts tip of witchblade into road and bluntly states eldar position"
+                },
+                {
+                    "character": "騎",
+                    "meaning": "cavalry",
+                    "notes":
+                        "cavalry are horses that take the field where big units are acceptable"
+                },
+                {
+                    "character": "階",
+                    "meaning": "(x) floor",
+                    "notes":
+                        "fortress spire type is down to floor ratio and spectrum of varieties"
+                },
+                {
+                    "character": "戒",
+                    "meaning": "strictures",
+                    "notes":
+                        "by adhering to strictures (vessel with level marked) marksman's honor is acquired"
+                },
+                {
+                    "character": "偉",
+                    "meaning": "eminent",
+                    "notes":
+                        "guilliman's personal navigator is one of the most eminent of his kind"
+                },
+                {
+                    "character": "胞",
+                    "meaning": "biological cell",
+                    "notes":
+                        "Fabius Bile crafts cells with lunar influence and possessed mechadendrites"
+                },
+                {
+                    "character": "榴",
+                    "meaning": "explosive shell",
+                    "notes":
+                        "after detonation of explosive shell only trees remain"
+                },
+                {
+                    "character": "標",
+                    "meaning": "signpost",
+                    "notes": "signpost is tree with illuminated sign "
+                },
+                {
+                    "character": "章",
+                    "meaning": "insignia",
+                    "notes":
+                        "vase insignia has history stretching back to early imperium"
+                },
+                {
+                    "character": "選",
+                    "meaning": "to select",
+                    "notes":
+                        "enginseer selects from common parts stores with two mechadendrites on road"
+                },
+                {
+                    "character": "渾",
+                    "meaning": "entire entity",
+                    "notes":
+                        "vaccine (counterseptic) is administered to whole entity of military force"
+                },
+                {
+                    "character": "情",
+                    "meaning": "ardor",
+                    "notes": "ardor an attitude of green youthful vigor"
+                },
+                {
+                    "character": "管",
+                    "meaning": "pipe",
+                    "notes":
+                        "control panel, terminator helm left by genestealer, resolve by venting"
+                },
+                {
+                    "character": "闘",
+                    "meaning": "combat",
+                    "notes":
+                        "combat between bloodthirster (bean) and champion (speck) in eternity gate"
+                },
+                {
+                    "character": "唯",
+                    "meaning": "lone, sole",
+                    "notes":
+                        "malcador the unarmored aquila, lon/sole figure holding the golden throne "
+                },
+                {
+                    "character": "測",
+                    "meaning": "to measure",
+                    "notes": "counterseptic is measured out according to rules"
+                },
+                {
+                    "character": "則",
+                    "meaning": "a single rule",
+                    "notes":
+                        "rules govern the disposition of everything from single coins to power swords"
+                },
+                {
+                    "character": "側",
+                    "meaning": "side, flank",
+                    "notes": "most of guilliman's rules are about sides/flanks"
+                },
+                {
+                    "character": "執",
+                    "meaning": "to execute",
+                    "notes":
+                        "good luck and an encompassing (round) plan hence execution"
+                },
+                {
+                    "character": "徐",
+                    "meaning": "gradually",
+                    "notes":
+                        "cautious auxiliaries gradually appear from cover in broken column"
+                },
+                {
+                    "character": "争",
+                    "meaning": "conflict",
+                    "notes":
+                        "chained 40k logo thunder hammer is symbol of eternal conflict"
+                },
+                {
+                    "character": "観",
+                    "meaning": "visual appearance",
+                    "notes":
+                        "when you see a dreadnought you see the ouside appearance and not the hero within"
+                },
+                {
+                    "character": "将",
+                    "meaning": "a general",
+                    "notes":
+                        "Imperial Guard general is tyranid-fighting speck but with lightning claw"
+                },
+                {
+                    "character": "顧",
+                    "meaning": "advisor",
+                    "notes":
+                        "imperial advisor is unofficial (under shutter) aquila quoting from page"
+                },
+                {
+                    "character": "嵐",
+                    "meaning": "storm",
+                    "notes": "storm is wind that undermines mountain"
+                },
+                {
+                    "character": "踏",
+                    "meaning": "to step",
+                    "notes":
+                        "step onto webway, street that shimmers like water, shines like sun"
+                },
+                {
+                    "character": "盟",
+                    "meaning": "ally",
+                    "notes":
+                        "bright engines of allies permitted to dock at orbital plate"
+                },
+                {
+                    "character": "阻",
+                    "meaning": "to block",
+                    "notes":
+                        "access to fortress spire data stacks is comprehensively blocked"
+                },
+                {
+                    "character": "胴",
+                    "meaning": "barrel",
+                    "notes":
+                        "on Titan (moon) thousands of barrels of aonymous heretics in identical barrels"
+                },
+                {
+                    "character": "筋",
+                    "meaning": "muscle",
+                    "notes":
+                        "artificial muscle: fields to enter commands, inexorable tidal power"
+                },
+                {
+                    "character": "砕",
+                    "meaning": "to crush",
+                    "notes":
+                        "stone crushed by mechanicum breaker with multitudinous lascutter rays"
+                },
+                {
+                    "character": "継",
+                    "meaning": "coupling",
+                    "notes":
+                        "threads are datalink coupling for rice-carrying forklift"
+                },
+                {
+                    "character": "砲",
+                    "meaning": "cannon",
+                    "notes":
+                        "weird xenos stone cannon is nevertheless activated by possessed mechadendrite"
+                },
+                {
+                    "character": "仮",
+                    "meaning": "provisional",
+                    "notes":
+                        "guilliman tolerates government he opposes because it's provisional"
+                },
+                {
+                    "character": "深",
+                    "meaning": "deep",
+                    "notes":
+                        "marine aspirant (recruit) rides log through spray in deep ravine"
+                },
+                {
+                    "character": "微",
+                    "meaning": "infinitesimal",
+                    "notes":
+                        "single walking plague victim is infinitesimal corruption in underhive"
+                },
+                {
+                    "character": "妙",
+                    "meaning": "otherwordly",
+                    "notes":
+                        "otherworldly woman manifests from a mere few artifacts"
+                },
+                {
+                    "character": "床",
+                    "meaning": "floor surface",
+                    "notes": "in a hab cell, a wooden floor"
+                },
+                {
+                    "character": "加",
+                    "meaning": "additional",
+                    "notes":
+                        "power lets you add additional (albeit unarmored) troops"
+                },
+                {
+                    "character": "烈",
+                    "meaning": "intense",
+                    "notes":
+                        "intense skitarii bone-cutting power sword flickers with plasma jets"
+                },
+                {
+                    "character": "局",
+                    "meaning": "bureau",
+                    "notes":
+                        "banner over bureau set up in catacomb with unarmored bureaucrats inside"
+                },
+                {
+                    "character": "腕",
+                    "meaning": "arm",
+                    "notes":
+                        "under the moonlight a commander with a primer under his arm"
+                },
+                {
+                    "character": "誰",
+                    "meaning": "who",
+                    "notes":
+                        "arbites, the word of the aquila, have the right to know who everyone is"
+                },
+                {
+                    "character": "敬",
+                    "meaning": "to honor",
+                    "notes":
+                        "possessed unarmoured citizen dressed with flowers in ritual to honor chaos"
+                },
+                {
+                    "character": "酷",
+                    "meaning": "pitiless",
+                    "notes":
+                        "beastman declaring primacy under influence of liquor is simmply pitiless"
+                },
+                {
+                    "character": "緩",
+                    "meaning": "to alleviate",
+                    "notes":
+                        "death cultist counts ritual threads to alleviate nightmares"
+                },
+                {
+                    "character": "漂",
+                    "meaning": "to drift",
+                    "notes":
+                        "sparks spraying out of illuminated sign drift lazily down to the ground"
+                },
+                {
+                    "character": "包",
+                    "meaning": "to wrap",
+                    "notes":
+                        "possessed mechadendrites autonomously grab and wrap up enemies"
+                },
+                {
+                    "character": "稀",
+                    "meaning": "rare",
+                    "notes":
+                        "Molotch uses promethium, strife and rag to get rare enuncia fragment"
+                },
+                {
+                    "character": "簡",
+                    "meaning": "simple",
+                    "notes":
+                        "a simple machine with just one input field to set interval"
+                },
+                {
+                    "character": "差",
+                    "meaning": "difference",
+                    "notes":
+                        "tending sheep and industry are fundamentally different ways to make things"
+                }
+            ]
+        },
+        {
+            "name": "6",
+            "id": "5",
+            "kanji": [
+                {
+                    "character": "論",
+                    "meaning": "theory",
+                    "notes":
+                        "words of dangerous theorising behind a conversion field and a locked gate"
+                },
+                {
+                    "character": "彩",
+                    "meaning": "colorful",
+                    "notes": "randomizing schematic produce colorful products"
+                },
+                {
+                    "character": "補",
+                    "meaning": "supplementary",
+                    "notes":
+                        "a supplementary warp rift specialist because they tend to burn out"
+                },
+                {
+                    "character": "灰",
+                    "meaning": "ash",
+                    "notes": "hive burnt out entirely contains nothing but ash"
+                },
+                {
+                    "character": "縁",
+                    "meaning": "edge, border",
+                    "notes":
+                        "electric fence (thread) is border between farm equipment (augmetic arms) and grox  "
+                },
+                {
+                    "character": "膚",
+                    "meaning": "skin graft",
+                    "notes":
+                        "carnosaur stomach is used for skin grafts (oddly enough)"
+                },
+                {
+                    "character": "胃",
+                    "meaning": "stomach",
+                    "notes": "stomach is lunar influence subverting brain"
+                },
+                {
+                    "character": "糾",
+                    "meaning": "entangled",
+                    "notes":
+                        "entangled by threads of donations from shady organisations"
+                },
+                {
+                    "character": "刊",
+                    "meaning": "edition of publication",
+                    "notes":
+                        "revised edition corrects error, clarifies that power swords need to be kept dry"
+                },
+                {
+                    "character": "築",
+                    "meaning": "to build from masonry",
+                    "notes":
+                        "input parameters and smoky industry buildings are constructed over trees."
+                },
+                {
+                    "character": "陥",
+                    "meaning": "trap",
+                    "notes":
+                        "fortress spire full of proscribed antiquities is trap for Tzeentchian cult"
+                },
+                {
+                    "character": "改",
+                    "meaning": "to remake",
+                    "notes":
+                        "mechadendrite infused with chaos remakes infernal machine thought destroyed"
+                },
+                {
+                    "character": "隠",
+                    "meaning": "to hide",
+                    "notes":
+                        "hidden mechanicus engine looks like fortress spire, has lightning claw, augmetic arm, giveaway heartbeat"
+                },
+                {
+                    "character": "輪",
+                    "meaning": "loop",
+                    "notes":
+                        "cars do loops in proving ground at research facility"
+                },
+                {
+                    "character": "縦",
+                    "meaning": "vertical orientation",
+                    "notes": ""
+                },
+                {
+                    "character": "威",
+                    "meaning": "martial prestige",
+                    "notes":
+                        "corrupt cleric regularly parades captured 'heretic' women to burnish his martial prestige"
+                },
+                {
+                    "character": "建",
+                    "meaning": "to buid with carpentry",
+                    "notes":
+                        "for buildings in alleys builders mark with brushes and build with carpentry"
+                },
+                {
+                    "character": "健",
+                    "meaning": "wholesome",
+                    "notes":
+                        "Guilliman directs the construction of carpentry buildings for their wholesome qualities"
+                },
+                {
+                    "character": "歴",
+                    "meaning": "history",
+                    "notes":
+                        "history of hive world's verdan past preserved in hab block, grove in stasis field"
+                },
+                {
+                    "character": "泣",
+                    "meaning": "to cry",
+                    "notes":
+                        "the tears of Sanguinius, symbolically Scarried in vases by every Blood Angel"
+                },
+                {
+                    "character": "資",
+                    "meaning": "to contribute",
+                    "notes":
+                        "contribution-hungry clerics always looking to the next coin"
+                },
+                {
+                    "character": "抗",
+                    "meaning": "anti-",
+                    "notes":
+                        "necron lord has hand-held anti-Whirlwind scrambler"
+                },
+                {
+                    "character": "府",
+                    "meaning": "province",
+                    "notes":
+                        "there is luck in every hab cell of a well-governed province"
+                },
+                {
+                    "character": "転",
+                    "meaning": "to rotate",
+                    "notes":
+                        "looking through the windshield of the car watching cyclonic clouds rotate ominously"
+                },
+                {
+                    "character": "紛",
+                    "meaning": "disputed",
+                    "notes":
+                        "disputes about how surveyors boundary threads should divide into parts"
+                },
+                {
+                    "character": "症",
+                    "meaning": "disease",
+                    "notes":
+                        "a disease is an illness correctly satisfying the diagnostic criteria"
+                },
+                {
+                    "character": "殊",
+                    "meaning": "notable",
+                    "notes":
+                        "notable bones in am Ordo Xenos collection are vermilion clearance"
+                },
+                {
+                    "character": "展",
+                    "meaning": "to extend",
+                    "notes":
+                        "honoured (chapter banner, flowers - doge) dark angel's hooded robe extends to completely conceal"
+                },
+                {
+                    "character": "積",
+                    "meaning": "volume (as in space)",
+                    "notes":
+                        "promethium coin doubt is a function of volume measurement problems"
+                },
+                {
+                    "character": "騙",
+                    "meaning": "to deceive",
+                    "notes":
+                        "horse at blast door to deceive those inside that the person riding is unsophisticated"
+                },
+                {
+                    "character": "耐",
+                    "meaning": "(x)-proof",
+                    "notes":
+                        "special circuit boards doped with speck of something as proofing against something else"
+                },
+                {
+                    "character": "適",
+                    "meaning": "to conform",
+                    "notes":
+                        "antique stores situated the main road at least have to conform to the law"
+                },
+                {
+                    "character": "列",
+                    "meaning": "a queue, column",
+                    "notes":
+                        "a silet column of null maidens all bearing bone-slicing power greatswords"
+                },
+                {
+                    "character": "桁",
+                    "meaning": "beam, spar",
+                    "notes":
+                        "a reinforcing beam made of wood with a line of sanctifying text along it"
+                },
+                {
+                    "character": "求",
+                    "meaning": "to want",
+                    "notes":
+                        "Slaaneshi augmented appetite-producing ray/probe induces pleasant tingling in subjects"
+                },
+                {
+                    "character": "球",
+                    "meaning": "a sphere",
+                    "notes":
+                        "palantir is sphere that shwows king everything he wants"
+                },
+                {
+                    "character": "疑",
+                    "meaning": "doubt",
+                    "notes":
+                        "seeker(auspex)-arrow evaded by doubt generated by fraudulent geneprint masking degeneracy"
+                },
+                {
+                    "character": "獲",
+                    "meaning": "to take (capture) in numbers",
+                    "notes":
+                        "masses entranced by propaganda encircled by hounds, captured in numbers"
+                },
+                {
+                    "character": "菌",
+                    "meaning": "germ, spore",
+                    "notes":
+                        "bodyglove infested with spores sprouts blooms is saturated with promethium"
+                },
+                {
+                    "character": "誘",
+                    "meaning": "to lure",
+                    "notes":
+                        "lure trader into heresy with words about promethium ownership contract"
+                },
+                {
+                    "character": "噴",
+                    "meaning": "to spray liquid",
+                    "notes":
+                        "unarmored knife-throwing coin-seeking mercenary produces sprays of liquid whenever he works"
+                },
+                {
+                    "character": "脆",
+                    "meaning": "fragile",
+                    "notes": "flesh is fragile in the face of hazards"
+                },
+                {
+                    "character": "緯",
+                    "meaning": "latitude",
+                    "notes":
+                        "navigator marks significant latitudes with paint-soaked thread"
+                },
+                {
+                    "character": "播",
+                    "meaning": "to sow",
+                    "notes":
+                        "agricultural servitor sow seed with one hand, seed waypoints written into brain"
+                },
+                {
+                    "character": "併",
+                    "meaning": "to combine",
+                    "notes":
+                        "Guilliman combines the heirloom weapons of conquered cultures into an armory"
+                },
+                {
+                    "character": "済",
+                    "meaning": "to be settled (accounts, etc)",
+                    "notes":
+                        "a vendetta is finally settled with a sprayed bespoke toxin"
+                },
+                {
+                    "character": "境",
+                    "meaning": "boundary",
+                    "notes": "doge"
+                },
+                {
+                    "character": "翼",
+                    "meaning": "wing",
+                    "notes": "wings in pairs over dissenting air currents"
+                },
+                {
+                    "character": "殺",
+                    "meaning": "to kill",
+                    "notes": "doge"
+                },
+                {
+                    "character": "両",
+                    "meaning": "both",
+                    "notes": "doge"
+                },
+                {
+                    "character": "断",
+                    "meaning": "judgement",
+                    "notes":
+                        "the judge considers the forklift-load of rice and delivers the loaf of final judgement"
+                },
+                {
+                    "character": "抵",
+                    "meaning": "to resist",
+                    "notes":
+                        "insurgents with only hand weapons leave calling cards after attacks, continue to resist"
+                },
+                {
+                    "character": "覆",
+                    "meaning": "to cover",
+                    "notes":
+                        "necron column restores vortex, battery comes online, whole complex is covered with forcefield"
+                },
+                {
+                    "character": "委",
+                    "meaning": "commissioned agent",
+                    "notes":
+                        "female promethium-trader caste members all receive hereditary trading commission"
+                },
+                {
+                    "character": "託",
+                    "meaning": "in trust",
+                    "notes": "doge"
+                },
+                {
+                    "character": "儡",
+                    "meaning": "string puppet",
+                    "notes": "doge"
+                },
+                {
+                    "character": "希",
+                    "meaning": "dilute",
+                    "notes":
+                        "strife over cloth dilutes the imperium's strength and focus"
+                },
+                {
+                    "character": "稀",
+                    "meaning": "seldom",
+                    "notes":
+                        "engine running on diluted promethium is seldom reliable"
+                },
+                {
+                    "character": "契",
+                    "meaning": "destiny",
+                    "notes":
+                        "Oll Persson filled with doubt, knife in hand, skipping over big events, embodies destiny"
+                },
+                {
+                    "character": "軟",
+                    "meaning": "soft",
+                    "notes":
+                        "civilian car of troops racing to soft spot in defences"
+                },
+                {
+                    "character": "敗",
+                    "meaning": "a loss (game)",
+                    "notes": "chaos-touched coin always loses"
+                },
+                {
+                    "character": "隙",
+                    "meaning": "a gap",
+                    "notes":
+                        "in a fortress tower, a reactor with small vents above and below is a gap in defenses"
+                },
+                {
+                    "character": "采",
+                    "meaning": "dice",
+                    "notes": "fighting a lightning claw on a beam is dicey"
+                },
+                {
+                    "character": "採",
+                    "meaning": "to sample",
+                    "notes":
+                        "a sample of unfortunate prisoners are selected at knifepoint with a die"
+                },
+                {
+                    "character": "究",
+                    "meaning": "research",
+                    "notes":
+                        "officer recruit appointed over multitudes depends on research (rather than experience)"
+                },
+                {
+                    "character": "活",
+                    "meaning": "active",
+                    "notes":
+                        "sprayed with holy water, withered tongue becomes active, prophesises"
+                },
+                {
+                    "character": "導",
+                    "meaning": "guide",
+                    "notes": "a guide builds a safe path from specks"
+                },
+                {
+                    "character": "路",
+                    "meaning": "route",
+                    "notes":
+                        "a route specifically lists each street to be traversed"
+                },
+                {
+                    "character": "膝",
+                    "meaning": "knee",
+                    "notes": "doge"
+                },
+                {
+                    "character": "歯",
+                    "meaning": "tooth",
+                    "notes":
+                        "scheme using bulk transport of rice as bait to obtain rare animal tooth"
+                },
+                {
+                    "character": "噛",
+                    "meaning": "to chew",
+                    "notes": "civilians' teeth are weak; they have to chew"
+                },
+                {
+                    "character": "腔",
+                    "meaning": "body cavity",
+                    "notes": "body cavity is flesh-space"
+                },
+                {
+                    "character": "泉",
+                    "meaning": "spring (of water)",
+                    "notes": "frothing white water emerging from spring"
+                },
+                {
+                    "character": "腺",
+                    "meaning": "gland",
+                    "notes": "tyranid venom gland is spring made of flesh"
+                },
+                {
+                    "character": "撹",
+                    "meaning": "to stir",
+                    "notes":
+                        "sight of ancient hand weapon stirs memories of Oll Persson"
+                },
+                {
+                    "character": "覚",
+                    "meaning": "memory",
+                    "notes":
+                        "observation scholam teaches memory of everything seen"
+                },
+                {
+                    "character": "硬",
+                    "meaning": "hard (material)",
+                    "notes":
+                        "the impossibly hard Necron stone that the inquisition maintains perpetual night watch over"
+                },
+                {
+                    "character": "殻",
+                    "meaning": "shell",
+                    "notes": "doge (tyranid shell seller?)"
+                },
+                {
+                    "character": "旋",
+                    "meaning": "to revolve",
+                    "notes":
+                        "degenerate pilgrimages revolve mindlessly around accursed objects of veneration"
+                },
+                {
+                    "character": "螺",
+                    "meaning": "spiral",
+                    "notes":
+                        "psychneuin are insects that create characteristic spiral tracks in psyker brains",
+                    "tags": ["psyker brain"]
+                },
+                {
+                    "character": "修",
+                    "meaning": "repair",
+                    "notes":
+                        "guilliman augmented can repair chaos-warped schematics"
+                },
+                {
+                    "character": "到",
+                    "meaning": "to reach (attain)",
+                    "notes":
+                        "attacking a trench line with a power sword, you're ok once you reach it"
+                },
+                {
+                    "character": "倒",
+                    "meaning": "to overthrow",
+                    "notes": "an enemy guilliman reaches is overthrown"
+                },
+                {
+                    "character": "律",
+                    "meaning": "a law",
+                    "notes": "laws are pillars made by writing-brushes"
+                },
+                {
+                    "character": "途",
+                    "meaning": "journey in progress",
+                    "notes":
+                        "nomadic auxiliaries are always on a journey in progress"
+                },
+                {
+                    "character": "圧",
+                    "meaning": "pressure",
+                    "notes":
+                        "hive stack exerts enormous pressure on the earth it stands on"
+                },
+                {
+                    "character": "探",
+                    "meaning": "to search for",
+                    "notes":
+                        "space marine aspirant armed with traditional single hand weapon, searching for trophy kill"
+                },
+                {
+                    "character": "眺",
+                    "meaning": "to gaze",
+                    "notes":
+                        "the emperor's eye gazes across the billions that make up the imperium"
+                },
+                {
+                    "character": "広",
+                    "meaning": "wide",
+                    "notes": "men with augmetic arms live in wider hab cells"
+                },
+                {
+                    "character": "拡",
+                    "meaning": "to widen",
+                    "notes": "intervene directly with hand weapon to make wider"
+                },
+                {
+                    "character": "遠",
+                    "meaning": "distant",
+                    "notes":
+                        "chapter serf on road in distant place, never to see home again",
+                    "tags": ["chapter serf"]
+                },
+                {
+                    "character": "園",
+                    "meaning": "garden",
+                    "notes":
+                        "chapter serf in enclosure, devoted solely to tending memorial garden",
+                    "tags": ["chapter serf"]
+                },
+                {
+                    "character": "産",
+                    "meaning": "to yield/produce",
+                    "notes":
+                        "shops marked as pure have a licence to yield/produce"
+                },
+                {
+                    "character": "宣",
+                    "meaning": "to publicise",
+                    "notes":
+                        "commander undermined by publicised rise of cursed star"
+                },
+                {
+                    "character": "辿",
+                    "meaning": "to traverse",
+                    "notes": "a great highway traversing a mountain range"
+                },
+                {
+                    "character": "軋",
+                    "meaning": "to creak",
+                    "notes": "car with tow hook creaks under load"
+                },
+                {
+                    "character": "遂",
+                    "meaning": "to achieve",
+                    "notes":
+                        "completely achieve horned bull grox, yoked on road"
+                },
+                {
+                    "character": "停",
+                    "meaning": "to stop",
+                    "notes":
+                        "Guilliman makes a point of stopping at a culturally significant pavilion"
+                },
+                {
+                    "character": "亭",
+                    "meaning": "pavilion",
+                    "notes":
+                        "civilian ruler installed at top of domed pavilion that looks like helmet on leaf"
+                },
+                {
+                    "character": "壊",
+                    "meaning": "かい　こわす",
+                    "notes": "doge"
+                },
+                {
+                    "character": "貞",
+                    "meaning": "chaste virtue",
+                    "notes": "doge"
+                },
+                {
+                    "character": "偵",
+                    "meaning": "reconnaissance",
+                    "notes": "doge"
+                },
+                {
+                    "character": "幅",
+                    "meaning": "aperture size",
+                    "notes": "doge"
+                },
+                {
+                    "character": "厚",
+                    "meaning": "thick",
+                    "notes": "doge"
+                }
+            ]
+        },
+        {
+            "name": "xx",
+            "id": "6",
+            "kanji": [
+                {
+                    "character": "声",
+                    "meaning": "Voice こえ",
+                    "notes": "??"
+                },
+                {
+                    "character": "幕",
+                    "meaning": "Curtain まく",
+                    "notes": "Flower, sun, something, banner"
+                },
+                {
+                    "character": "収",
+                    "meaning": "Income しゅ",
+                    "notes": "??"
+                },
+                {
+                    "character": "実",
+                    "meaning": "fruit, seed じつ",
+                    "notes": "??"
+                },
+                {
+                    "character": "際",
+                    "meaning": "occasion さい",
+                    "notes": "??"
+                },
+                {
+                    "character": "製",
+                    "meaning": "manufacture せい",
+                    "notes": "??"
+                },
+                {
+                    "character": "様",
+                    "meaning": "condition さま",
+                    "notes": "tree, excruciation?"
+                },
+                {
+                    "character": "遭",
+                    "meaning": "to have a bad experience, あう, 遭う",
+                    "notes": "sergeant on road"
+                },
+                {
+                    "character": "成",
+                    "meaning": "achieve せい",
+                    "notes": "parade with hook?"
+                },
+                {
+                    "character": "象",
+                    "meaning": "elephant ぞう",
+                    "notes": "???"
+                },
+                {
+                    "character": "慮",
+                    "meaning": "consideration ",
+                    "notes": "carnosaur and think?"
+                },
+                {
+                    "character": "環",
+                    "meaning": "Ring",
+                    "notes": "King augmetic eye heretic tabard"
+                }
+            ]
+        }
+    ]
+}

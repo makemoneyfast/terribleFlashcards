@@ -1,0 +1,53 @@
+.quiz {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.controls {
+    position: absolute;
+    width: 30vmin;
+    height: 100%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.controls hr {
+    flex-grow: 0;
+    width: 100%;
+}
+
+@media screen and (orientation: landscape) {
+    .controls {
+        position: absolute;
+        width: 30vmin;
+        height: 100%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .controls {
+        position: absolute;
+        width: 100%;
+        height: 8vmin;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+}
