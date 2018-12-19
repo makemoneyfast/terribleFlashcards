@@ -60,7 +60,12 @@ class BasicQuiz extends React.Component<QuizProps> {
                 );
             case "quiz":
                 return (
-                    <div className="quiz">
+                    <div
+                        className={
+                            this.props.quizMode === eQuizMode.character
+                                ? "quiz character"
+                                : "quiz meaning"
+                        }>
                         <Card />
                         <Controls />
                     </div>
@@ -118,6 +123,9 @@ class BasicQuiz extends React.Component<QuizProps> {
     }
 }
 
-const Quiz = connect(mapStateToProps, mapDispatchToProps)(BasicQuiz);
+const Quiz = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(BasicQuiz);
 
 export default Quiz;

@@ -80,6 +80,7 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
     let question: string;
     let answer: string;
     let questionLanguage: string;
+    let vocabularyType: " character" | " compound";
     let answerLanguage: string;
     const kunyomi: string = props.kunyomi;
     let onyomi: string = props.onyomi;
@@ -89,12 +90,15 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             question = props.character;
             answer = props.meaning;
             questionLanguage = " japanese";
+            vocabularyType =
+                props.character.length === 1 ? " character" : " compound";
             answerLanguage = " english";
             break;
         case eQuizMode.meaning:
             question = props.meaning;
             answer = props.character;
             questionLanguage = " english";
+            vocabularyType = " compound";
             answerLanguage = " japanese";
             break;
     }
@@ -165,7 +169,12 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                     <div className="content">
                         <div className="status">{statusMessage}</div>
                         <div className="question">
-                            <div className={"content" + questionLanguage}>
+                            <div
+                                className={
+                                    "content" +
+                                    questionLanguage +
+                                    vocabularyType
+                                }>
                                 {question}
                             </div>
                         </div>
@@ -255,6 +264,9 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
     return <div />;
 };
 
-const Card = connect(mapStateToProps, mapDispatchToProps)(BasicCard);
+const Card = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(BasicCard);
 
 export default Card;

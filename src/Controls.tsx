@@ -257,13 +257,13 @@ class BasicControls extends React.Component<ControlsProps> {
             };
         }
 
-        let restartControls = this.props.canRestart
+        let disabledRestartControls = this.props.canRestart
             ? [{ caption: "Restart this test" }]
             : [];
-        let retestControls = this.props.canRetest
+        let disabledRetestControls = this.props.canRetest
             ? [{ caption: "Start retest" }]
             : [];
-        let disabledRestartControls = this.props.canRestart
+        let restartControls = this.props.canRestart
             ? [
                   {
                       caption: "Restart this test",
@@ -275,7 +275,7 @@ class BasicControls extends React.Component<ControlsProps> {
                   }
               ]
             : [];
-        let disabledRetestControls = this.props.canRetest
+        let retestControls = this.props.canRetest
             ? [{ caption: "Start retest", handler: this.props.onStartRetest }]
             : [];
 
@@ -551,6 +551,9 @@ class BasicControls extends React.Component<ControlsProps> {
     }
 }
 
-const Controls = connect(mapStateToProps, mapDispatchToProps)(BasicControls);
+const Controls = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(BasicControls);
 
 export default Controls;
