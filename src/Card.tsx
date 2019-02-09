@@ -194,7 +194,12 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                     <div className="content">
                         <div className="status">{statusMessage}</div>
                         <div className="question">
-                            <div className={"content" + questionLanguage}>
+                            <div
+                                className={
+                                    "content" +
+                                    questionLanguage +
+                                    vocabularyType
+                                }>
                                 {question}
                             </div>
                         </div>
@@ -229,7 +234,12 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                     <div className="content">
                         <div className="status">{statusMessage}</div>
                         <div className="question">
-                            <div className={"content" + questionLanguage}>
+                            <div
+                                className={
+                                    "content" +
+                                    questionLanguage +
+                                    vocabularyType
+                                }>
                                 {question}
                             </div>
                         </div>

@@ -191,8 +191,13 @@
         flex-direction: column;
     }
 
-    .card .question .content {
+    .character .card .question .content {
         font-size: 52vmin;
+    }
+
+    .meaning .card .question .content,
+    .character .card .question .content.compound {
+        font-size: 14vmin;
     }
 
     .card .answer {
@@ -212,5 +217,10 @@
         flex-basis: auto;
         flex-grow: 0;
         font-size: 8vmin;
+    }
+
+    .card .retestButton {
+        position: absolute;
+        z-index: 100;
     }
 }

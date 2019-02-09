@@ -36,17 +36,20 @@ const mapDispatchToProps: (
 const BaseRetestButton: React.StatelessComponent<RetestButtonProps> = props => {
     const buttonCaption = props.cardIsFlagged ? "Don't retest" : "Retest";
     return (
-        <input
-            type="button"
-            onClick={props.onClick}
-            value={buttonCaption}
-            className="retestButton"
-        />
+        <div className="retestButtonContainer">
+            <input
+                type="button"
+                onClick={props.onClick}
+                value={buttonCaption}
+                className="retestButton"
+            />
+        </div>
     );
 };
 
-const RetestButton = connect(mapStateToProps, mapDispatchToProps)(
-    BaseRetestButton
-);
+const RetestButton = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(BaseRetestButton);
 
 export default RetestButton;
