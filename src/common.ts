@@ -1,5 +1,6 @@
 export enum eQuizMode {
     character,
+    reading,
     meaning
 }
 export enum eCardState {

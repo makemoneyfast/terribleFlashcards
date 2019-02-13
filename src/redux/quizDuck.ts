@@ -93,12 +93,9 @@ export default function reducer(
                 cardState: nextCardState
             };
         case CHANGE_QUIZ_MODE:
-            const newQuizMode = [eQuizMode.meaning, eQuizMode.character][
-                state.quizMode
-            ];
             return {
                 ...state,
-                quizMode: newQuizMode
+                quizMode: action.payload.mode
             };
         case START_RETEST:
             return {
@@ -158,11 +155,11 @@ export function tagQuizSelected(
 
 type SelectQuizModeAction = Action<
     "MorningThunder/quiz/CHANGE_QUIZ_MODE",
-    null
+    { mode: eQuizMode }
 >;
 
-export function quizModeChanged(): SelectQuizModeAction {
-    return { type: CHANGE_QUIZ_MODE, payload: null };
+export function quizModeChanged(mode: eQuizMode): SelectQuizModeAction {
+    return { type: CHANGE_QUIZ_MODE, payload: { mode } };
 }
 
 type FlipAction = Action<"MorningThunder/quiz/FLIP", null>;

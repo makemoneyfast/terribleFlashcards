@@ -62,9 +62,10 @@ class BasicQuiz extends React.Component<QuizProps> {
                 return (
                     <div
                         className={
-                            this.props.quizMode === eQuizMode.character
-                                ? "quiz character"
-                                : "quiz meaning"
+                            this.props.quizMode === eQuizMode.meaning
+                                ? "quiz meaning"
+                                : "quiz character"
+                            // TODO: fix this hack (no reading)
                         }>
                         <Card />
                         <Controls />

@@ -57,7 +57,7 @@ interface ControlsProps {
     onSaveCard: () => void;
     onCancelCardEdit: () => void;
     onCancelSetEdit: () => void;
-    onChangeQuizMode: () => void;
+    onChangeQuizMode: (mode: eQuizMode) => void;
     onStartRetest: () => void;
     onRestart: (currentSetID: string, currentTagID: string) => void;
     onSwitchToSets: () => void;
@@ -193,7 +193,7 @@ const mapDispatchToProps = (
         onSaveCard: () => dispatch(thunkSaveCardBufferContentsAndExit() as any),
         onCancelCardEdit: () => dispatch(thunkEndCardEdit() as any),
         onCancelSetEdit: () => dispatch(thunkEndSetEdit() as any),
-        onChangeQuizMode: () => dispatch(quizModeChanged()),
+        onChangeQuizMode: (mode: eQuizMode) => dispatch(quizModeChanged(mode)),
         onRestart: (currentSetID: string, currentTagID: string) => {
             if (typeof currentSetID === "string") {
                 dispatch(thunkStartSetQuiz(currentSetID) as any);
@@ -234,8 +234,8 @@ class BasicControls extends React.Component<ControlsProps> {
         let disabledRestartControlArray: ControlItem[]; // populate these!
         let retestControlArray: ControlItem[];
         let disabledRetestControlArray: ControlItem[];
-        let modeControl: ControlItem;
-        let disabledModeControl: ControlItem;
+        let modeControls: ControlItem[];
+        let disabledModeControls: ControlItem[];
 
         if (this.props.quizzesAvailable) {
             if (this.props.quizInProgress) {
@@ -279,20 +279,37 @@ class BasicControls extends React.Component<ControlsProps> {
             ? [{ caption: "Start retest", handler: this.props.onStartRetest }]
             : [];
 
+        modeControls = [
+            {
+                caption: "Test characters",
+                handler: () => this.props.onChangeQuizMode(eQuizMode.character)
+            },
+            {
+                caption: "Test meanings",
+                handler: () => this.props.onChangeQuizMode(eQuizMode.meaning)
+            },
+            {
+                caption: "Test readings",
+                handler: () => this.props.onChangeQuizMode(eQuizMode.reading)
+            }
+        ];
+        disabledModeControls = [
+            { caption: "Test characters" },
+            { caption: "Test meanings" },
+            { caption: "Test readings" }
+        ];
         switch (this.props.quizMode) {
             case eQuizMode.character:
-                modeControl = {
-                    caption: "Test meanings",
-                    handler: this.props.onChangeQuizMode
-                };
-                disabledModeControl = { caption: "Test meanings" };
+                modeControls.splice(0, 1);
+                disabledModeControls.splice(0, 1);
                 break;
             case eQuizMode.meaning:
-                modeControl = {
-                    caption: "Test characters",
-                    handler: this.props.onChangeQuizMode
-                };
-                disabledModeControl = { caption: "Test characters" };
+                modeControls.splice(1, 1);
+                disabledModeControls.splice(1, 1);
+                break;
+            case eQuizMode.reading:
+                modeControls.splice(2, 1);
+                disabledModeControls.splice(2, 1);
                 break;
         }
 
@@ -316,7 +333,7 @@ class BasicControls extends React.Component<ControlsProps> {
                             handler: () => this.props.onEditCurrentCard("quiz"),
                             caption: "Edit this card"
                         },
-                        modeControl
+                        ...modeControls
                     ],
                     restartControls,
                     retestControls,
