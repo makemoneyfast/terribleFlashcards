@@ -109,7 +109,8 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             hint = props.meaning;
             answer = props.onyomi || props.kunyomi;
             questionLanguage = " japanese";
-            vocabularyType = " character";
+            vocabularyType =
+                props.character.length === 1 ? " character" : " compound";
             answerLanguage = " japanese";
             break;
     }

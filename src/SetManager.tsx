@@ -23,8 +23,7 @@ const BasicSetManager: React.StatelessComponent<SetManagerProps> = (
     const sets = _(props.sets)
         .map(set => (
             <div key={set.id} className="set">
-                {set.name}
-                <em>{set.cardCount} cards</em>
+                {set.name} <strong>{set.cardCount}</strong>
                 <input
                     type="button"
                     value="edit"
@@ -65,8 +64,9 @@ const mapDispatchToProps: (
     };
 };
 
-const SetManager = connect(mapStateToProps, mapDispatchToProps)(
-    BasicSetManager
-);
+const SetManager = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(BasicSetManager);
 
 export default SetManager;
