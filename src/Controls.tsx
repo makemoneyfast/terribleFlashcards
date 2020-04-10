@@ -100,7 +100,7 @@ const mapStateToProps = (state: State): Partial<ControlsProps> => {
             if (
                 state.setEditor.name !== original.name ||
                 state.setEditor.kanji.toString() !==
-                    (original.kanji ? original.kanji.toString() : "")
+                (original.kanji ? original.kanji.toString() : "")
             ) {
                 unsavedSetChanges = true;
             }
@@ -240,63 +240,63 @@ class BasicControls extends React.Component<ControlsProps> {
         if (this.props.quizzesAvailable) {
             if (this.props.quizInProgress) {
                 quizControl = {
-                    caption: "Resume quiz",
+                    caption: "続く",
                     handler: this.props.onResumeQuiz
                 };
-                disabledQuizControl = { caption: "Resume quiz" };
+                disabledQuizControl = { caption: "続く" };
             } else {
                 quizControl = {
-                    caption: "Start quiz",
+                    caption: "開始",
                     handler: this.props.onStartDefaultQuiz
                 };
-                disabledQuizControl = { caption: "Start quiz" };
+                disabledQuizControl = { caption: "開始" };
             }
         } else {
             quizControl = disabledQuizControl = {
-                caption: "No quizzes defined"
+                caption: "試験なし"
             };
         }
 
         let disabledRestartControls = this.props.canRestart
-            ? [{ caption: "Restart this test" }]
+            ? [{ caption: "繰り返す" }]
             : [];
         let disabledRetestControls = this.props.canRetest
-            ? [{ caption: "Start retest" }]
+            ? [{ caption: "失敗繰り返す" }]
             : [];
         let restartControls = this.props.canRestart
             ? [
-                  {
-                      caption: "Restart this test",
-                      handler: () =>
-                          this.props.onRestart(
-                              this.props.currentSetID,
-                              this.props.currentTagID
-                          )
-                  }
-              ]
+                {
+                    caption: "繰り返す",
+                    handler: () =>
+                        this.props.onRestart(
+                            this.props.currentSetID,
+                            this.props.currentTagID
+                        )
+                }
+            ]
             : [];
         let retestControls = this.props.canRetest
-            ? [{ caption: "Start retest", handler: this.props.onStartRetest }]
+            ? [{ caption: "失敗繰り返す", handler: this.props.onStartRetest }]
             : [];
 
         modeControls = [
             {
-                caption: "Test characters",
+                caption: "意味",
                 handler: () => this.props.onChangeQuizMode(eQuizMode.character)
             },
             {
-                caption: "Test meanings",
+                caption: "書き方",
                 handler: () => this.props.onChangeQuizMode(eQuizMode.meaning)
             },
             {
-                caption: "Test readings",
+                caption: "訓読み",
                 handler: () => this.props.onChangeQuizMode(eQuizMode.reading)
             }
         ];
         disabledModeControls = [
-            { caption: "Test characters" },
-            { caption: "Test meanings" },
-            { caption: "Test readings" }
+            { caption: "意味" },
+            { caption: "書き方" },
+            { caption: "訓読み" }
         ];
         switch (this.props.quizMode) {
             case eQuizMode.character:
@@ -318,11 +318,11 @@ class BasicControls extends React.Component<ControlsProps> {
                 quizControls = [
                     quizControl,
                     {
-                        caption: "Edit Mode",
+                        caption: "編集",
                         handler: this.props.onSwitchToEditMode
                     },
                     {
-                        caption: "Load and save"
+                        caption: "書き出す"
                     }
                 ];
                 break;
@@ -331,7 +331,7 @@ class BasicControls extends React.Component<ControlsProps> {
                     [
                         {
                             handler: () => this.props.onEditCurrentCard("quiz"),
-                            caption: "Edit this card"
+                            caption: "項目編集"
                         },
                         ...modeControls
                     ],
@@ -339,19 +339,19 @@ class BasicControls extends React.Component<ControlsProps> {
                     retestControls,
                     [
                         {
-                            caption: "Sets",
+                            caption: "組",
                             handler: this.props.onSwitchToSets
                         },
                         {
-                            caption: "Tags",
+                            caption: "属性",
                             handler: this.props.onSwitchToTags
                         },
                         {
-                            caption: "Edit Mode",
+                            caption: "編集",
                             handler: this.props.onSwitchToEditMode
                         },
                         {
-                            caption: "Load and Save",
+                            caption: "書き出す",
                             handler: this.props.onSwitchToLoader
                         }
                     ]
@@ -361,18 +361,18 @@ class BasicControls extends React.Component<ControlsProps> {
                 quizControls = [
                     quizControl,
                     {
-                        caption: "Sets"
+                        caption: "組"
                     },
                     {
-                        caption: "Tags",
+                        caption: "属性",
                         handler: this.props.onSwitchToTags
                     },
                     {
-                        caption: "Edit Mode",
+                        caption: "編集",
                         handler: this.props.onSwitchToEditMode
                     },
                     {
-                        caption: "Load and Save",
+                        caption: "書き出す",
                         handler: this.props.onSwitchToLoader
                     }
                 ];
@@ -381,18 +381,18 @@ class BasicControls extends React.Component<ControlsProps> {
                 quizControls = [
                     quizControl,
                     {
-                        caption: "Sets",
+                        caption: "組",
                         handler: this.props.onSwitchToSets
                     },
                     {
-                        caption: "Tags"
+                        caption: "属性"
                     },
                     {
-                        caption: "Edit Mode",
+                        caption: "編集",
                         handler: this.props.onSwitchToEditMode
                     },
                     {
-                        caption: "Load and Save",
+                        caption: "書き出す",
                         handler: this.props.onSwitchToLoader
                     }
                 ];
@@ -401,26 +401,26 @@ class BasicControls extends React.Component<ControlsProps> {
                 if (this.props.cardIsNew) {
                     if (this.props.okToSaveCard) {
                         saveControl = {
-                            caption: "Save",
+                            caption: "保存",
                             handler: this.props.onSaveCard
                         };
                     } else {
-                        saveControl = { caption: "Save" };
+                        saveControl = { caption: "保存" };
                     }
                 } else {
                     if (this.props.unsavedCardChanges) {
                         saveControl = {
-                            caption: "Save",
+                            caption: "保存",
                             handler: this.props.onSaveCard
                         };
                     } else {
-                        saveControl = { caption: "Save" };
+                        saveControl = { caption: "保存" };
                     }
                 }
                 quizControls = [
                     saveControl,
                     {
-                        caption: "Cancel",
+                        caption: "戻る",
                         handler: this.props.onCancelCardEdit
                     }
                 ];
@@ -429,26 +429,26 @@ class BasicControls extends React.Component<ControlsProps> {
                 if (this.props.setIsNew) {
                     if (this.props.okToSaveSet) {
                         saveControl = {
-                            caption: "Save",
+                            caption: "保存",
                             handler: this.props.onSaveSet
                         };
                     } else {
-                        saveControl = { caption: "Save" };
+                        saveControl = { caption: "保存" };
                     }
                 } else {
                     if (this.props.unsavedSetChanges) {
                         saveControl = {
-                            caption: "Save",
+                            caption: "保存",
                             handler: this.props.onSaveSet
                         };
                     } else {
-                        saveControl = { caption: "Save" };
+                        saveControl = { caption: "保存" };
                     }
                 }
                 quizControls = [
                     saveControl,
                     {
-                        caption: "Cancel",
+                        caption: "戻る",
                         handler: this.props.onCancelSetEdit
                     }
                 ];
@@ -457,26 +457,26 @@ class BasicControls extends React.Component<ControlsProps> {
                 quizControls = [
                     quizControl,
                     {
-                        caption: "Make a new card",
+                        caption: "新項目",
                         handler: () => this.props.onEditNewCard("card_manager")
                     },
                     {
-                        caption: "Make a new set",
+                        caption: "新組",
                         handler: () => this.props.onEditNewSet("card_manager")
                     },
                     {
-                        caption: "Manage cards"
+                        caption: "項目管理"
                     },
                     {
-                        caption: "Manage sets",
+                        caption: "組管理",
                         handler: this.props.onSwitchToSetsManager
                     },
                     {
-                        caption: "Manage tags",
+                        caption: "属性管理",
                         handler: this.props.onSwitchToTagsManager
                     },
                     {
-                        caption: "Load and Save",
+                        caption: "書き出す",
                         handler: this.props.onSwitchToLoader
                     }
                 ];
@@ -485,26 +485,26 @@ class BasicControls extends React.Component<ControlsProps> {
                 quizControls = [
                     quizControl,
                     {
-                        caption: "Make a new card",
+                        caption: "新項目",
                         handler: () => this.props.onEditNewCard("set_manager")
                     },
                     {
-                        caption: "Make a new set",
+                        caption: "新組",
                         handler: () => this.props.onEditNewSet("set_manager")
                     },
                     {
-                        caption: "Manage cards",
+                        caption: "項目管理",
                         handler: this.props.onSwitchToCardManager
                     },
                     {
-                        caption: "Manage sets"
+                        caption: "組管理"
                     },
                     {
-                        caption: "Manage tags",
+                        caption: "属性管理",
                         handler: this.props.onSwitchToTagsManager
                     },
                     {
-                        caption: "Load and Save",
+                        caption: "書き出す",
                         handler: this.props.onSwitchToLoader
                     }
                 ];
@@ -513,26 +513,26 @@ class BasicControls extends React.Component<ControlsProps> {
                 quizControls = [
                     quizControl,
                     {
-                        caption: "Make a new card",
+                        caption: "新項目",
                         handler: () => this.props.onEditNewCard("tag_manager")
                     },
                     {
-                        caption: "Make a new set",
+                        caption: "新組",
                         handler: () => this.props.onEditNewSet("tag_manager")
                     },
                     {
-                        caption: "Manage cards",
+                        caption: "項目管理",
                         handler: this.props.onSwitchToCardManager
                     },
                     {
-                        caption: "Manage sets",
+                        caption: "組管理",
                         handler: this.props.onSwitchToSetsManager
                     },
                     {
-                        caption: "Manage tags"
+                        caption: "属性管理"
                     },
                     {
-                        caption: "Load and Save",
+                        caption: "書き出す",
                         handler: this.props.onSwitchToLoader
                     }
                 ];
