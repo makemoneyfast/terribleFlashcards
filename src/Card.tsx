@@ -97,10 +97,10 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             answerLanguage = " english";
             break;
         case eQuizMode.meaning:
-            question = props.meaning;
-            hint = props.hint;
+            question = props.kunyomi || props.onyomi;
+            hint = props.meaning;
             answer = props.character;
-            questionLanguage = " english";
+            questionLanguage = " japanese";
             vocabularyType = " compound";
             answerLanguage = " japanese";
             break;
