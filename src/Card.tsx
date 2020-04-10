@@ -271,16 +271,6 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                                     {answer}
                                 </div>
                             </div>
-                            <div className="kunyomi">
-                                <div className={"content" + answerLanguage}>
-                                    {kunyomi}
-                                </div>
-                            </div>
-                            <div className="onyomi">
-                                <div className={"content" + answerLanguage}>
-                                    {onyomi}
-                                </div>
-                            </div>
                         </div>
                         <div className="tags">{tags}</div>
                         <RetestButton />
