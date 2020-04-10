@@ -1,7 +1,8 @@
 export enum eQuizMode {
     character,
-    reading,
-    meaning
+    meaning,
+    kunyomi,
+    onyomi
 }
 export enum eCardState {
     question = 0,

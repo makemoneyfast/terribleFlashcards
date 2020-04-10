@@ -290,13 +290,18 @@ class BasicControls extends React.Component<ControlsProps> {
             },
             {
                 caption: "訓読み",
-                handler: () => this.props.onChangeQuizMode(eQuizMode.reading)
+                handler: () => this.props.onChangeQuizMode(eQuizMode.kunyomi)
+            },
+            {
+                caption: "音読み",
+                handler: () => this.props.onChangeQuizMode(eQuizMode.onyomi)
             }
         ];
         disabledModeControls = [
             { caption: "意味" },
             { caption: "書き方" },
-            { caption: "訓読み" }
+            { caption: "訓読み" },
+            { caption: "音読み" }
         ];
         switch (this.props.quizMode) {
             case eQuizMode.character:
@@ -307,9 +312,13 @@ class BasicControls extends React.Component<ControlsProps> {
                 modeControls.splice(1, 1);
                 disabledModeControls.splice(1, 1);
                 break;
-            case eQuizMode.reading:
+            case eQuizMode.kunyomi:
                 modeControls.splice(2, 1);
                 disabledModeControls.splice(2, 1);
+                break;
+            case eQuizMode.onyomi:
+                modeControls.splice(3, 1);
+                disabledModeControls.splice(3, 1);
                 break;
         }
 
@@ -461,7 +470,7 @@ class BasicControls extends React.Component<ControlsProps> {
                         handler: () => this.props.onEditNewCard("card_manager")
                     },
                     {
-                        caption: "新組",
+                        caption: "新しい組",
                         handler: () => this.props.onEditNewSet("card_manager")
                     },
                     {
@@ -489,7 +498,7 @@ class BasicControls extends React.Component<ControlsProps> {
                         handler: () => this.props.onEditNewCard("set_manager")
                     },
                     {
-                        caption: "新組",
+                        caption: "新しい組",
                         handler: () => this.props.onEditNewSet("set_manager")
                     },
                     {
@@ -517,7 +526,7 @@ class BasicControls extends React.Component<ControlsProps> {
                         handler: () => this.props.onEditNewCard("tag_manager")
                     },
                     {
-                        caption: "新組",
+                        caption: "新しい組",
                         handler: () => this.props.onEditNewSet("tag_manager")
                     },
                     {
