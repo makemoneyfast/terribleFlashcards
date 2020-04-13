@@ -154,8 +154,8 @@ export default function reducer(
                         meaning: action.payload.meaning,
                         notes: action.payload.hint,
                         tags: action.payload.tags.slice().sort(),
-                        onyomi: action.payload.kunyomi,
-                        kunyomi: action.payload.onyomi,
+                        kunyomi: action.payload.kunyomi,
+                        onyomi: action.payload.onyomi,
                         retest: false
                     }
                 }
