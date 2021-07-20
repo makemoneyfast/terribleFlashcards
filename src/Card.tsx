@@ -48,7 +48,7 @@ const mapStateToProps: (state: State) => Partial<CardProps> = (
         cardNumber: state.quiz.currentCardIndex + 1,
         totalCards: state.quiz.currentQuiz.length,
         numberOfCardsToRetest: _(state.assets.kanji)
-            .filter(kanji => kanji.retest)
+            .filter((kanji) => kanji.retest)
             .value().length,
         retesting: state.quiz.retesting,
         character: currentCard.character,
@@ -64,7 +64,7 @@ const mapStateToProps: (state: State) => Partial<CardProps> = (
         canFlip: !(
             state.quiz.cardState === eCardState.answer &&
             state.quiz.currentCardIndex >= state.quiz.currentQuiz.length - 1
-        )
+        ),
     };
 };
 
@@ -72,7 +72,7 @@ const mapDispatchToProps: (dispatch: Dispatch<Action>) => Partial<CardProps> = (
     dispatch: Dispatch<Action>
 ) => {
     return {
-        onFlip: () => dispatch(flipCard())
+        onFlip: () => dispatch(flipCard()),
     };
 };
 
@@ -83,8 +83,93 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
     let questionLanguage: string;
     let vocabularyType: " character" | " compound";
     let answerLanguage: string;
-    const kunyomi: string = props.kunyomi;
-    let onyomi: string = props.onyomi;
+    let mapToKatakana = (hiragana: string) => {
+        return hiragana
+            .split("")
+            .map(
+                (character) =>
+                    ({
+                        あ: "ア",
+                        い: "イ",
+                        う: "ウ",
+                        え: "エ",
+                        お: "オ",
+                        は: "ハ",
+                        ひ: "ヒ",
+                        ふ: "フ",
+                        へ: "ヘ",
+                        ほ: "ホ",
+                        か: "カ",
+                        き: "キ",
+                        く: "ク",
+                        け: "ケ",
+                        こ: "コ",
+                        さ: "サ",
+                        し: "シ",
+                        す: "ス",
+                        せ: "セ",
+                        そ: "ソ",
+                        た: "タ",
+                        ち: "チ",
+                        つ: "ツ",
+                        て: "テ",
+                        と: "ト",
+                        ら: "ラ",
+                        り: "リ",
+                        る: "ル",
+                        れ: "レ",
+                        ろ: "ロ",
+                        ま: "マ",
+                        み: "ミ",
+                        む: "ム",
+                        め: "メ",
+                        も: "モ",
+                        な: "ナ",
+                        に: "ニ",
+                        ぬ: "ヌ",
+                        ね: "ネ",
+                        の: "ノ",
+                        や: "ヤ",
+                        ゆ: "ユ",
+                        よ: "ヨ",
+                        わ: "ワ",
+                        を: "ヲ",
+                        ん: "ン",
+                        が: "ガ",
+                        ぎ: "ギ",
+                        ぐ: "グ",
+                        げ: "ゲ",
+                        ご: "ゴ",
+                        だ: "ダ",
+                        ぢ: "ヂ",
+                        づ: "ヅ",
+                        で: "デ",
+                        ど: "ド",
+                        ざ: "ザ",
+                        じ: "ジ",
+                        ず: "ズ",
+                        ぜ: "ゼ",
+                        ぞ: "ゾ",
+                        ば: "バ",
+                        び: "ビ",
+                        ぶ: "ブ",
+                        べ: "ベ",
+                        ぼ: "ボ",
+                        ぱ: "パ",
+                        ぴ: "ピ",
+                        ぷ: "プ",
+                        ぺ: "ペ",
+                        ぽ: "ポ",
+                        ゃ: "ャ",
+                        ゅ: "ュ",
+                        ょ: "ョ",
+                        っ: "ッ",
+                        " ": " ",
+                        "　": "　",
+                    }[character])
+            )
+            .join("");
+    };
 
     switch (props.quizType) {
         case eQuizMode.character:
@@ -97,7 +182,9 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             answerLanguage = " english";
             break;
         case eQuizMode.meaning:
-            question = props.kunyomi || props.onyomi;
+            question = `${props.kunyomi}${
+                props.kunyomi && props.onyomi ? "/" : ""
+            }${mapToKatakana(props.onyomi)}`;
             hint = props.meaning;
             answer = props.character;
             questionLanguage = " japanese";
@@ -126,7 +213,7 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
 
     const cardSelectStyle = {
         border: "#00C 1px solid",
-        padding: "5px"
+        padding: "5px",
     };
 
     const flipHandler = props.canFlip ? props.onFlip : () => undefined;
@@ -226,7 +313,9 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                         </div>
                         <div className="answer">
                             <div className="hint">
-                                <div className="content english">{hint}</div>
+                                <div className="content english">
+                                    {hint || "✕"}
+                                </div>
                             </div>
                         </div>
                         <RetestButton />
@@ -264,11 +353,13 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                         </div>
                         <div className="answer">
                             <div className="hint">
-                                <div className="content english">{hint}</div>
+                                <div className="content english">
+                                    {hint || "✕"}
+                                </div>
                             </div>
                             <div className="meaning">
                                 <div className={"content" + answerLanguage}>
-                                    {answer}
+                                    {answer || "✕"}
                                 </div>
                             </div>
                         </div>
@@ -281,9 +372,6 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
     return <div />;
 };
 
-const Card = connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(BasicCard);
+const Card = connect(mapStateToProps, mapDispatchToProps)(BasicCard);
 
 export default Card;
