@@ -77,8 +77,8 @@ const mapDispatchToProps: (dispatch: Dispatch<Action>) => Partial<CardProps> = (
 };
 
 const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
-    let question: string;
-    let hint: string;
+    let question: any[];
+    let hint: any[];
     let answer: string;
     let questionLanguage: string;
     let vocabularyType: " character" | " compound";
@@ -173,8 +173,8 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
 
     switch (props.quizType) {
         case eQuizMode.character:
-            question = props.character;
-            hint = props.hint;
+            question = [props.character];
+            hint = [props.hint];
             answer = props.meaning;
             questionLanguage = " japanese";
             vocabularyType =
@@ -182,18 +182,20 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             answerLanguage = " english";
             break;
         case eQuizMode.meaning:
-            question = `${props.kunyomi}${
-                props.kunyomi && props.onyomi ? "/" : ""
-            }${mapToKatakana(props.onyomi)}`;
-            hint = props.meaning;
+            question = [props.kunyomi, <br></br>, mapToKatakana(props.onyomi)];
+            hint = [
+                props.meaning,
+                <br></br>,
+                <span className="subsidiary">{props.hint}</span>,
+            ];
             answer = props.character;
             questionLanguage = " japanese";
             vocabularyType = " compound";
             answerLanguage = " japanese";
             break;
         case eQuizMode.kunyomi:
-            question = props.character;
-            hint = props.meaning;
+            question = [props.character];
+            hint = [props.meaning];
             answer = props.kunyomi;
             questionLanguage = " japanese";
             vocabularyType =
@@ -201,8 +203,8 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             answerLanguage = " japanese";
             break;
         case eQuizMode.onyomi:
-            question = props.character;
-            hint = props.meaning;
+            question = [props.character];
+            hint = [props.meaning];
             answer = props.onyomi;
             questionLanguage = " japanese";
             vocabularyType =
@@ -210,6 +212,11 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
             answerLanguage = " japanese";
             break;
     }
+
+    // Handle missing fields
+
+    hint = hint.map((item) => (item ? item : "✕"));
+    answer = answer || "✕";
 
     const cardSelectStyle = {
         border: "#00C 1px solid",
@@ -313,9 +320,7 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                         </div>
                         <div className="answer">
                             <div className="hint">
-                                <div className="content english">
-                                    {hint || "✕"}
-                                </div>
+                                <div className="content english">{hint}</div>
                             </div>
                         </div>
                         <RetestButton />
@@ -353,13 +358,11 @@ const BasicCard: React.StatelessComponent<CardProps> = (props: CardProps) => {
                         </div>
                         <div className="answer">
                             <div className="hint">
-                                <div className="content english">
-                                    {hint || "✕"}
-                                </div>
+                                <div className="content english">{hint}</div>
                             </div>
                             <div className="meaning">
                                 <div className={"content" + answerLanguage}>
-                                    {answer || "✕"}
+                                    {answer}
                                 </div>
                             </div>
                         </div>
